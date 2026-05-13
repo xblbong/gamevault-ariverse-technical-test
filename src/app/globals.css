@@ -6,7 +6,7 @@
 /* Root Color Variables */
 :root,
 .dark {
-  /* Dark Mode Colors — aplikasikan ketika tidak ada class OR .dark class */
+  /* Dark Mode Colors - aplikasikan ketika tidak ada class OR .dark class */
   /* Backgrounds */
   --gv-bg-base: #0d0d14;
   /* Main background */
@@ -19,7 +19,7 @@
 
   /* Text */
   --gv-text-primary: #e8e6f0;
-  /* Headings, main content — off-white */
+  /* Headings, main content - off-white */
   --gv-text-secondary: #a09cb5;
   /* Subtitle, metadata */
   --gv-text-muted: #6b6880;
@@ -45,7 +45,7 @@
   --gv-info-bg: rgba(59, 130, 246, 0.12);
 }
 
-/* Light Mode Colors — aplikasikan ketika tidak ada class OR .light class di body */
+/* Light Mode Colors - aplikasikan ketika tidak ada class OR .light class di body */
 .light {
   /* Surface / Background */
   --gv-bg-base: #f4f3f8;
@@ -101,7 +101,7 @@
 
 /* thema tailwind css (static values, never change) */
 @theme {
-  /* PRIMARY — Deep Violet */
+  /* PRIMARY - Deep Violet */
   --color-primary-50:  #f0eeff;
   --color-primary-100: #e3deff;
   --color-primary-200: #cabeff;
@@ -116,7 +116,7 @@
   /* ACCENT */
   --color-accent-cyan:     #22d3ee; /* Neon Blue/Cyan */
   --color-accent-cyan-500: #06b6d4;
-  --color-accent-neon:     #a3e635; /* Neon Lime — badge NEW / GRATIS */
+  --color-accent-neon:     #a3e635; /* Neon Lime - badge NEW / GRATIS */
  
   /* SEMANTIC */
   --color-success: #34d399;
@@ -141,31 +141,148 @@
   --animate-duration-slow:   500ms;
 }
 
+/* base layer - reset & global default styles */
 @layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+ 
+  html {
+    scroll-behavior: smooth;
+    /* Tell browser about color-scheme for native UI (scrollbars, inputs) */
+    color-scheme: dark;
+  }
+ 
+  html.light {
+    color-scheme: light;
+  }
+ 
   body {
-    @apply transition-colors duration-300;
-    background-color: var(--background);
-    color: var(--foreground);
+    background-color: var(--gv-bg-base);
+    color: var(--gv-text-primary);
+    font-family: var(--font-plus-jakarta, system-ui, sans-serif);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+    /* Smooth theme transitions */
+    transition:
+      background-color 300ms ease,
+      color 200ms ease;
   }
-
-  /* Fluid Typography - Bonus Point UX */
-  h1 {
-    font-size: clamp(1.875rem, 5vw, 3rem);
+ 
+  /* Remove default tap highlight on mobile */
+  a,
+  button {
+    -webkit-tap-highlight-color: transparent;
   }
-
-  h2 {
-    font-size: clamp(1.5rem, 4vw, 2.25rem);
+ 
+  /* Image defaults */
+  img,
+  video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+ 
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+ 
+  ::-webkit-scrollbar-track {
+    background: var(--gv-bg-surface);
+  }
+ 
+  ::-webkit-scrollbar-thumb {
+    background: var(--gv-border-strong);
+    border-radius: 999px;
+  }
+ 
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7c3aed;
+  }
+ 
+  /* Selection */
+  ::selection {
+    background-color: rgba(124, 58, 237, 0.35);
+    color: #e8e6f0;
+  }
+}
+ 
+/* typography scale */
+@layer base {
+  /* Hero banner, page titles */
+  .text-display-xl {
+    font-size: clamp(2.25rem, 4vw + 1rem, 4.5rem); /* 36px → 72px */
+    line-height: 1.1;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+  }
+ 
+  .text-display-lg {
+    font-size: clamp(1.875rem, 3vw + 0.75rem, 3.5rem); /* 30px → 56px */
+    line-height: 1.15;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+  }
+ 
+  /* HEADING - Section titles */
+  .text-heading-xl {
+    font-size: clamp(1.5rem, 2vw + 0.5rem, 2.25rem); /* (Minimal, Ideal, Maksimal) 24px → 36px */
+    line-height: 1.25;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+ 
+  .text-heading-lg {
+    font-size: clamp(1.25rem, 1.5vw + 0.5rem, 1.875rem); /* 20px → 30px */
+    line-height: 1.3;
+    font-weight: 600;
+  }
+ 
+  .text-heading-md {
+    font-size: clamp(1.125rem, 1vw + 0.5rem, 1.5rem); /* 18px → 24px */
+    line-height: 1.35;
+    font-weight: 600;
+  }
+ 
+  /* BODY - Descriptions, paragraphs */
+  .text-body-lg {
+    font-size: clamp(1rem, 0.5vw + 0.875rem, 1.125rem); /* 16px → 18px */
+    line-height: 1.65;
+    font-weight: 400;
+  }
+ 
+  .text-body-md {
+    font-size: clamp(0.875rem, 0.25vw + 0.8rem, 1rem); /* 14px → 16px */
+    line-height: 1.6;
+    font-weight: 400;
+  }
+ 
+  .text-body-sm {
+    font-size: clamp(0.75rem, 0.25vw + 0.7rem, 0.875rem); /* 12px → 14px */
+    line-height: 1.5;
+    font-weight: 400;
+  }
+ 
+  /* LABEL & CAPTION - Badges, prices, metadata */
+  .text-label-lg {
+    font-size: clamp(0.8125rem, 0.25vw + 0.75rem, 0.9375rem); /* 13px → 15px */
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    line-height: 1.4;
+  }
+ 
+  .text-label-sm {
+    font-size: clamp(0.6875rem, 0.1vw + 0.65rem, 0.75rem); /* 11px → 12px */
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 1.4;
   }
 }
 
-@keyframes fade-in {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
+/* components layer - css patterns className="game-card" di jsx */
