@@ -33,30 +33,61 @@
   --gv-warning-bg: rgba(245, 158, 11, 0.12);
   --gv-info-bg: rgba(59, 130, 246, 0.12);
 
+  /* ─── Dynamic Accent Colors (dark mode) ─── */
+  /* Harga game → amber/gold, terlihat premium di dark bg */
+  --gv-accent-price: #f59e0b;
+  /* Secondary highlight → violet lembut */
+  --gv-accent-secondary: #a78bfa;
+  /* Bintang rating → amber */
+  --gv-warning: #fbbf24;
+
+  /* ─── Dynamic Rating Colors (dark mode) ─── */
+  --gv-rating-excellent: #34d399;   /* emerald-400 — menggantikan lime */
+  --gv-rating-great:     #60a5fa;   /* sky-blue-400 — menggantikan cyan */
+  --gv-rating-average:   #fbbf24;   /* amber-400 */
+  --gv-rating-poor:      #f87171;   /* red-400 */
+
   color-scheme: dark;
 }
 
 .light {
-  --gv-bg-base: #f4f3f8;
+  /* Backgrounds — ungu tipis agar tetap berasa gaming, tidak plain putih */
+  --gv-bg-base: #f0effa;
   --gv-bg-surface: #ffffff;
-  --gv-bg-elevated: #eeecf5;
-  --gv-bg-overlay: #e4e0f0;
+  --gv-bg-elevated: #e6e4f5;
+  --gv-bg-overlay: #dad7ee;
 
-  --gv-text-primary: #1a1830;
-  --gv-text-secondary: #4a4660;
-  --gv-text-muted: #8b87a0;
-  --gv-text-inverse: #f4f3f8;
+  /* Text — lebih gelap & kontras di light bg */
+  --gv-text-primary: #16133a;
+  --gv-text-secondary: #3e3a60;
+  --gv-text-muted: #7a769a;
+  --gv-text-inverse: #f0effa;
 
-  --gv-border-subtle: rgba(0, 0, 0, 0.05);
-  --gv-border-default: rgba(0, 0, 0, 0.10);
-  --gv-border-strong: rgba(0, 0, 0, 0.18);
-  --gv-border-accent: rgba(124, 58, 237, 0.40);
+  /* Borders — sedikit purple-tinted agar kohesif */
+  --gv-border-subtle: rgba(80, 60, 180, 0.07);
+  --gv-border-default: rgba(80, 60, 180, 0.14);
+  --gv-border-strong: rgba(80, 60, 180, 0.25);
+  --gv-border-accent: rgba(124, 58, 237, 0.45);
 
-  --gv-gradient-card: linear-gradient(to top, rgba(244, 243, 248, 0.98) 0%, transparent 60%);
-  --gv-gradient-hero: linear-gradient(to right, rgba(244, 243, 248, 1) 30%, transparent 100%);
+  /* Gradients — disesuaikan dengan bg baru */
+  --gv-gradient-card: linear-gradient(to top, rgba(22, 19, 58, 0.92) 0%, transparent 60%);
+  --gv-gradient-hero: linear-gradient(to right, rgba(240, 239, 250, 1) 30%, transparent 100%);
 
-  --gv-success-bg: rgba(16, 185, 129, 0.08);
-  --gv-error-bg: rgba(239, 68, 68, 0.08);
+  --gv-success-bg: rgba(16, 185, 129, 0.10);
+  --gv-error-bg: rgba(239, 68, 68, 0.10);
+
+  /* ─── Dynamic Accent Colors (light mode) ─── */
+  /* Lebih gelap agar terbaca di background terang */
+  --gv-accent-price: #b45309;      /* amber-700 */
+  --gv-accent-secondary: #6d28d9;  /* purple-700 */
+  --gv-warning: #d97706;           /* amber-600 */
+
+  /* ─── Dynamic Rating Colors (light mode) ─── */
+  /* Semua digelapkan agar kontras di background putih/terang */
+  --gv-rating-excellent: #059669;  /* emerald-600 */
+  --gv-rating-great:     #2563eb;  /* blue-600 */
+  --gv-rating-average:   #d97706;  /* amber-600 */
+  --gv-rating-poor:      #dc2626;  /* red-600 */
 
   color-scheme: light;
 }
@@ -79,14 +110,16 @@
   --color-primary-800: #4c1d95;
   --color-primary-900: #2e1065;
 
-  --color-accent-cyan: #22d3ee;
-  --color-accent-neon: #a3e635;
+  /* Accent — pakai var() agar otomatis ganti antara dark/light mode */
+  --color-accent-cyan: var(--gv-accent-price);      /* amber/gold untuk harga */
+  --color-accent-neon: var(--gv-accent-secondary);  /* violet untuk secondary */
+  --color-warning: var(--gv-warning);               /* amber untuk bintang */
 
-  /* Rating Colors */
-  --color-rating-excellent: #a3e635;
-  --color-rating-great: #22d3ee;
-  --color-rating-average: #fbbf24;
-  --color-rating-poor: #f87171;
+  /* Rating Colors — dinamis via CSS variable */
+  --color-rating-excellent: var(--gv-rating-excellent);
+  --color-rating-great:     var(--gv-rating-great);
+  --color-rating-average:   var(--gv-rating-average);
+  --color-rating-poor:      var(--gv-rating-poor);
 
   /* Dynamic Mapping */
   --color-bg-base: var(--gv-bg-base);
@@ -301,11 +334,18 @@
 
   .navbar-glass {
     @apply sticky top-0 z-50 w-full backdrop-blur-xl border-b border-border-subtle transition-colors duration-300;
-    background-color: rgba(13, 13, 20, 0.8);
+    background-color: rgba(13, 13, 20, 0.85);
   }
 
   .light .navbar-glass {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(240, 239, 250, 0.88);
+    border-bottom-color: rgba(80, 60, 180, 0.12);
+    box-shadow: 0 1px 12px rgba(80, 60, 180, 0.08);
+  }
+
+  /* Light mode skeleton shimmer lebih terlihat */
+  .light .skeleton::after {
+    background: linear-gradient(90deg, transparent, rgba(80, 60, 180, 0.07), transparent);
   }
 }
 
@@ -313,20 +353,33 @@
 
 @layer utilities {
   .bg-gradient-brand {
-    background: linear-gradient(135deg, #7c3aed 0%, #06b6d4 100%);
+    background: linear-gradient(135deg, #7c3aed 0%, #a78bfa 100%);
   }
 
   .text-gradient-primary {
     @apply bg-clip-text text-transparent;
-    background-image: linear-gradient(135deg, #8b5cf6 0%, #22d3ee 100%);
+    background-image: linear-gradient(135deg, #8b5cf6 0%, #f59e0b 100%);
   }
 
+  /* Dark mode glow */
   .shadow-glow-primary {
-    box-shadow: 0 0 20px rgba(124, 58, 237, 0.3);
+    box-shadow: 0 0 20px rgba(124, 58, 237, 0.35);
+  }
+
+  /* Light mode glow lebih subtle */
+  .light .shadow-glow-primary {
+    box-shadow: 0 0 16px rgba(109, 40, 217, 0.22);
   }
 
   .glass {
-    @apply backdrop-blur-md bg-white/5 border border-white/10;
+    @apply backdrop-blur-md border;
+    background: rgba(255, 255, 255, 0.04);
+    border-color: rgba(255, 255, 255, 0.08);
+  }
+
+  .light .glass {
+    background: rgba(80, 60, 180, 0.04);
+    border-color: rgba(80, 60, 180, 0.12);
   }
 
   .container-page {
