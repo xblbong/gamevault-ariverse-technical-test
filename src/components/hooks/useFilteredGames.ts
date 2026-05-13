@@ -62,7 +62,7 @@ export const useFilteredGames = () => {
         });
 
         return result;
-    }, [allGames, debouncedSearch, selectedGenres, selectedPlatforms, sortBy]);
+    }, [allGames, debouncedSearch, selectedGenres, selectedPlatforms, selectedYear, sortBy]);
 
     return {
         search,
