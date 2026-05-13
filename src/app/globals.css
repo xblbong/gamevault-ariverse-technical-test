@@ -411,3 +411,108 @@
   }
 }
  
+/* utilities layer - cutom one-off utilities */
+@layer utilities {
+  /* Glow Shadows */
+  .shadow-glow-primary {
+    box-shadow:
+      0 0 20px rgba(124, 58, 237, 0.35),
+      0 0 40px rgba(124, 58, 237, 0.15);
+  }
+ 
+  .shadow-glow-cyan {
+    box-shadow:
+      0 0 20px rgba(6, 182, 212, 0.35),
+      0 0 40px rgba(6, 182, 212, 0.15);
+  }
+ 
+  .shadow-glow-card {
+    box-shadow:
+      0 8px 30px rgba(0, 0, 0, 0.5),
+      0 0 20px rgba(124, 58, 237, 0.12);
+  }
+ 
+  /* Gradient Backgrounds */
+  .bg-gradient-card  { background: var(--gv-gradient-card); }
+  .bg-gradient-hero  { background: var(--gv-gradient-hero); }
+  .bg-gradient-brand { background: linear-gradient(135deg, #7c3aed 0%, #06b6d4 100%); }
+  .bg-gradient-glow  {
+    background: radial-gradient(
+      ellipse at center,
+      rgba(124, 58, 237, 0.15) 0%,
+      transparent 70%
+    );
+  }
+ 
+  /* Text Gradient */
+  .text-gradient-primary {
+    background: linear-gradient(135deg, #8b5cf6 0%, #22d3ee 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+ 
+  /* Glassmorphism */
+  .glass {
+    background: rgba(19, 19, 31, 0.75);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--gv-border-subtle);
+  }
+ 
+  .light .glass {
+    background: rgba(255, 255, 255, 0.75);
+  }
+ 
+  /* Focus Ring — Accessibility */
+  .focus-ring {
+    outline: none;
+  }
+ 
+  .focus-ring:focus-visible {
+    outline: 2px solid #7c3aed;
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+ 
+  /* Container */
+  .container-page {
+    width: 100%;
+    max-width: 1440px;
+    margin-inline: auto;
+    padding-inline: 1rem;
+  }
+ 
+  @media (min-width: 640px)  { .container-page { padding-inline: 1.5rem; } }
+  @media (min-width: 768px)  { .container-page { padding-inline: 2rem;   } }
+  @media (min-width: 1280px) { .container-page { padding-inline: 2.5rem; } }
+  @media (min-width: 1536px) { .container-page { padding-inline: 3rem;   } }
+ 
+  /* Line Clamp */
+  .line-clamp-1 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+ 
+  .line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+ 
+  .line-clamp-3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+ 
+  /* Semantic Badge Backgrounds */
+  .bg-success-subtle  { background-color: var(--gv-success-bg); }
+  .bg-error-subtle    { background-color: var(--gv-error-bg);   }
+  .bg-warning-subtle  { background-color: var(--gv-warning-bg); }
+  .bg-info-subtle     { background-color: var(--gv-info-bg);    }
+}
