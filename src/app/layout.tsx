@@ -3,6 +3,8 @@ import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
 import { WishlistProvider } from "@/components/context/WishlistContext";
+import { Navbar } from "@/components/layout/Navbar";
+import { Footer } from "@/components/layout/Footer";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   variable: "--font-plus-jakarta",
@@ -26,9 +28,9 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
           <WishlistProvider>
             <div className="flex min-h-screen flex-col">
-              {/* <Navbar /> */}
+              <Navbar />
               <main className="flex-grow">{children}</main>
-              {/* <Footer /> */}
+              <Footer />
             </div>
           </WishlistProvider>
         </ThemeProvider>
