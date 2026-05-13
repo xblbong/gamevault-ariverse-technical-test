@@ -12,9 +12,11 @@ interface FilterPanelProps {
     onGenreChange: (g: Genre[]) => void;
     selectedPlatforms: Platform[];
     onPlatformChange: (p: Platform[]) => void;
+    selectedYear: string;
+    onYearChange: (y: string) => void;
 }
 
-export const FilterPanel = ({ selectedGenres, onGenreChange, selectedPlatforms, onPlatformChange }: FilterPanelProps) => {
+export const FilterPanel = ({ selectedGenres, onGenreChange, selectedPlatforms, onPlatformChange, selectedYear, onYearChange }: FilterPanelProps) => {
     const toggleGenre = (genre: Genre) => {
         onGenreChange(selectedGenres.includes(genre) ? selectedGenres.filter(g => g !== genre) : [...selectedGenres, genre]);
     };
@@ -26,7 +28,7 @@ export const FilterPanel = ({ selectedGenres, onGenreChange, selectedPlatforms, 
     return (
         <div className="space-y-8 p-6 bg-bg-surface rounded-2xl border border-border-subtle">
             <div>
-                <h4 className="text-label-sm text-text-muted mb-4">Genre</h4>
+                <h4 className="text-label-sm text-text-muted mb-4 uppercase tracking-wider">Genre</h4>
                 <div className="flex flex-wrap gap-2">
                     {GENRES.map((genre) => (
                         <button key={genre} onClick={() => toggleGenre(genre)}>
@@ -39,7 +41,7 @@ export const FilterPanel = ({ selectedGenres, onGenreChange, selectedPlatforms, 
             </div>
 
             <div>
-                <h4 className="text-label-sm text-text-muted mb-4">Platform</h4>
+                <h4 className="text-label-sm text-text-muted mb-4 uppercase tracking-wider">Platform</h4>
                 <div className="grid grid-cols-2 gap-2">
                     {PLATFORMS.map((p) => (
                         <button
@@ -59,11 +61,9 @@ export const FilterPanel = ({ selectedGenres, onGenreChange, selectedPlatforms, 
             <div>
                 <h4 className="text-label-sm text-text-muted mb-4 uppercase tracking-wider">Tahun Rilis</h4>
                 <select
-                    onChange={(e) => {
-                        // memodifikasi useFilteredGames untuk menerima year
-                        // onYearChange(e.target.value);
-                    }}
-                    className="input-base text-body-sm"
+                    value={selectedYear}
+                    onChange={(e) => onYearChange(e.target.value)}
+                    className="input-base text-body-sm cursor-pointer"
                 >
                     <option value="">Semua Tahun</option>
                     <option value="2024">2024</option>

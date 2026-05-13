@@ -71,6 +71,8 @@ export const useFilteredGames = () => {
         setSelectedGenres,
         selectedPlatforms,
         setSelectedPlatforms,
+        selectedYear,
+        setSelectedYear,
         sortBy,
         setSortBy,
         filteredGames,
