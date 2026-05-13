@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
+import { WishlistProvider } from "@/components/context/WishlistContext";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   variable: "--font-plus-jakarta",
@@ -23,11 +24,13 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning className={plusJakartaSans.variable}>
       <body className="font-sans bg-bg-base text-text-primary antialiased">
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
+          <WishlistProvider>
             <div className="flex min-h-screen flex-col">
               {/* <Navbar /> */}
               <main className="flex-grow">{children}</main>
               {/* <Footer /> */}
             </div>
+          </WishlistProvider>
         </ThemeProvider>
       </body>
     </html>
