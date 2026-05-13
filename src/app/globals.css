@@ -516,3 +516,15 @@
   .bg-warning-subtle  { background-color: var(--gv-warning-bg); }
   .bg-info-subtle     { background-color: var(--gv-info-bg);    }
 }
+
+/* reduced motion accessibility */
+@media (prefers-reduced-motion: reduce) {
+  * ,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
