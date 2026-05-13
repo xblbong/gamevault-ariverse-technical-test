@@ -19,14 +19,22 @@ export async function generateStaticParams() {
 }
 
 // Spek Bonus: Dynamic SEO Metadata
-export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
-    const game = gamesData.find((g) => g.slug === params.slug);
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+    const { slug } = await params;
+    const game = gamesData.find((g) => g.slug === slug);
     if (!game) return { title: "Game Not Found" };
-    return { title: `${game.title} - GameVault`, description: game.description };
+    return { title: `${game.title} - GameVault` };
 }
 
-export default function GameDetailPage({ params }: { params: { slug: string } }) {
-    const game = gamesData.find((g) => g.slug === params.slug);
+export default async function GameDetailPage({
+    params
+}: {
+    params: Promise<{ slug: string }>
+}) {
+    // Tunggu params selesai di-load
+    const { slug } = await params;
+
+    const game = gamesData.find((g) => g.slug === slug);
 
     if (!game) return notFound();
 

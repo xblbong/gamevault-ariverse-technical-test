@@ -1,4 +1,3 @@
-// src/components/ui/GameCard.tsx
 "use client";
 
 import Image from "next/image";
@@ -41,14 +40,14 @@ export const GameCard = ({ game }: GameCardProps) => {
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
             className="object-cover transition-transform duration-500 group-hover:scale-110"
           />
-          
+
           {/* Wishlist Button Overlay */}
           <button
             onClick={handleWishlist}
             className={cn(
               "absolute right-3 top-3 z-10 rounded-full p-2.5 backdrop-blur-md transition-all duration-300",
-              isFavorite 
-                ? "bg-primary-500 text-white shadow-glow-primary scale-110" 
+              isFavorite
+                ? "bg-primary-500 text-white shadow-glow-primary scale-110"
                 : "bg-black/20 text-white hover:bg-black/40"
             )}
           >

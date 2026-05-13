@@ -23,12 +23,12 @@ export const ScreenshotGallery = ({ screenshots }: { screenshots: string[] }) =>
             onClick={() => setIndex(i)}
             className="relative aspect-video overflow-hidden rounded-xl border border-border-subtle cursor-zoom-in bg-bg-elevated"
           >
-            <Image src={src} alt={`Screenshot ${i + 1}`} fill className="object-cover" />
+            <Image src={src} alt={`Screenshot ${i + 1}`} fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover" />
           </motion.div>
         ))}
       </div>
 
-      <Lightbox
+      <Lightbox     
         index={index}
         open={index >= 0}
         close={() => setIndex(-1)}

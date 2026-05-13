@@ -23,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning className={plusJakartaSans.variable}>
+    <html lang="en" suppressHydrationWarning data-scroll-behavior="smooth" className={plusJakartaSans.variable}>
       <body className="font-sans bg-bg-base text-text-primary antialiased">
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
           <WishlistProvider>
