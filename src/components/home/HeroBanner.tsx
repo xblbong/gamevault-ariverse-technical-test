@@ -27,9 +27,9 @@ export const HeroBanner = () => {
   const currentGame = featuredGames[currentIndex];
 
   return (
-    <section className="relative w-full overflow-hidden bg-bg-base pt-4 sm:pt-8 pb-12">
+    <section className="relative w-full overflow-hidden bg-bg-base pt-3 sm:pt-8 pb-8 sm:pb-12">
       <div className="container-page">
-        <div className="relative h-[500px] md:h-[600px] w-full overflow-hidden rounded-[2rem] border border-border-subtle bg-bg-surface">
+        <div className="relative h-[420px] sm:h-[500px] md:h-[600px] w-full overflow-hidden rounded-2xl sm:rounded-[2rem] border border-border-subtle bg-bg-surface">
           <AnimatePresence mode="wait">
             <motion.div
               key={currentGame.id}
@@ -86,20 +86,17 @@ export const HeroBanner = () => {
 
                     <motion.p 
                       variants={heroItemVariants}
-                      className="text-body-md md:text-body-lg text-text-secondary line-clamp-3 md:line-clamp-none max-w-lg"
+                      className="text-body-md md:text-body-lg text-text-secondary line-clamp-2 md:line-clamp-none max-w-lg"
                     >
                       {currentGame.description}
                     </motion.p>
 
-                    <motion.div variants={heroItemVariants} className="flex flex-wrap gap-3 pt-2">
+                    <motion.div variants={heroItemVariants} className="flex flex-wrap gap-2 sm:gap-3 pt-2">
                       <Link href={`/games/${currentGame.slug}`}>
-                        <Button size="lg" className="gap-2 px-8">
-                          Lihat Detail <ChevronRight size={18} />
+                        <Button size="lg" className="gap-2 px-5 sm:px-8 text-sm sm:text-base">
+                          Lihat Detail <ChevronRight size={16} />
                         </Button>
                       </Link>
-                      <Button variant="ghost" size="lg" className="gap-2 bg-bg-elevated/50">
-                        <Info size={18} /> Pelajari Lebih Lanjut
-                      </Button>
                     </motion.div>
                   </motion.div>
                 </div>

@@ -10,10 +10,10 @@ export const GameGrid = () => {
   const allGames = gamesData as Game[];
 
   return (
-    <section className="container-page py-12">
-      <div className="mb-8 flex items-end justify-between">
+    <section className="container-page py-8 md:py-12">
+      <div className="mb-6 md:mb-8 flex items-end justify-between">
         <div>
-          <h2 className="text-heading-xl mb-2">Jelajahi Semua Game</h2>
+          <h2 className="text-heading-xl mb-1.5">Jelajahi Semua Game</h2>
           <p className="text-text-secondary text-body-md">Temukan petualangan berikutnya dari koleksi terbaik kami.</p>
         </div>
       </div>
@@ -23,7 +23,7 @@ export const GameGrid = () => {
         initial="initial"
         whileInView="animate"
         viewport={{ once: true, margin: "-100px" }}
-        className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5"
+        className="grid grid-cols-2 gap-3 sm:gap-4 md:gap-6 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5"
       >
         {allGames.map((game) => (
           <motion.div key={game.id} variants={cardVariants}>

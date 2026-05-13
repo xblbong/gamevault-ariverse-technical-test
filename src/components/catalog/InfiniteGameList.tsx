@@ -59,7 +59,7 @@ export const InfiniteGameList = ({ games, displayedGames, loadMore, hasMore }: I
         variants={staggerContainer}
         initial="initial"
         animate="animate"
-        className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6"
+        className="grid grid-cols-2 gap-3 sm:gap-4 md:gap-6 sm:grid-cols-2 xl:grid-cols-3"
       >
         {displayedGames.map((game) => (
           <motion.div key={game.id} variants={cardVariants}>
@@ -70,8 +70,8 @@ export const InfiniteGameList = ({ games, displayedGames, loadMore, hasMore }: I
 
       {/* Loading Trigger Area */}
       {hasMore && (
-        <div ref={ref} className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 pt-4">
-          {[...Array(3)].map((_, i) => (
+        <div ref={ref} className="grid grid-cols-2 gap-3 sm:gap-4 md:gap-6 sm:grid-cols-2 xl:grid-cols-3 pt-4">
+          {[...Array(4)].map((_, i) => (
             <GameCardSkeleton key={i} />
           ))}
         </div>

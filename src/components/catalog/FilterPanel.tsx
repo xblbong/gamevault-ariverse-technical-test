@@ -42,13 +42,13 @@ export const FilterPanel = ({ selectedGenres, onGenreChange, selectedPlatforms, 
 
             <div>
                 <h4 className="text-label-sm text-text-muted mb-4 uppercase tracking-wider">Platform</h4>
-                <div className="grid grid-cols-2 gap-2">
+            <div className="flex flex-col gap-1.5">
                     {PLATFORMS.map((p) => (
                         <button
                             key={p}
                             onClick={() => togglePlatform(p)}
                             className={cn(
-                                "text-body-sm px-3 py-2 rounded-lg border text-left transition-all",
+                                "text-body-sm px-3 py-2 rounded-lg border text-left transition-all truncate",
                                 selectedPlatforms.includes(p) ? "bg-primary-500/10 border-primary-500 text-primary-500" : "border-border-default text-text-secondary hover:border-border-strong"
                             )}
                         >

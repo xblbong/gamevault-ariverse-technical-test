@@ -44,14 +44,16 @@ export const GameCard = ({ game }: GameCardProps) => {
           {/* Wishlist Button Overlay */}
           <button
             onClick={handleWishlist}
+            aria-label={isFavorite ? "Hapus dari wishlist" : "Tambah ke wishlist"}
             className={cn(
-              "absolute right-3 top-3 z-10 rounded-full p-2.5 backdrop-blur-md transition-all duration-300",
+              "absolute right-2 top-2 z-10 rounded-full p-2 sm:p-2.5 backdrop-blur-md transition-all duration-300",
               isFavorite
                 ? "bg-primary-500 text-white shadow-glow-primary scale-110"
                 : "bg-black/20 text-white hover:bg-black/40"
             )}
           >
-            <Heart size={18} fill={isFavorite ? "currentColor" : "none"} />
+            <Heart size={15} className="sm:hidden" fill={isFavorite ? "currentColor" : "none"} />
+            <Heart size={18} className="hidden sm:block" fill={isFavorite ? "currentColor" : "none"} />
           </button>
 
           {/* Rating Badge Overlay */}
@@ -64,15 +66,15 @@ export const GameCard = ({ game }: GameCardProps) => {
 
           {/* Bottom Gradient Overlay */}
           <div className="game-card-overlay flex flex-col justify-end">
-            <div className="flex flex-wrap gap-1 mb-2">
-              {game.genres.slice(0, 2).map((genre) => (
-                <Badge key={genre}>{genre}</Badge>
+            <div className="flex flex-wrap gap-1 mb-1 sm:mb-2">
+              {game.genres.slice(0, 1).map((genre) => (
+                <Badge key={genre} className="text-[10px] sm:text-xs px-1.5 sm:px-2">{genre}</Badge>
               ))}
             </div>
-            <h3 className="text-heading-md line-clamp-2 text-white mb-1">
+            <h3 className="text-body-sm sm:text-heading-md line-clamp-2 text-white mb-0.5 sm:mb-1 font-semibold">
               {game.title}
             </h3>
-            <p className="text-label-lg text-accent-cyan font-bold">
+            <p className="text-[11px] sm:text-label-lg text-accent-cyan font-bold">
               {formatPrice(game.price)}
             </p>
           </div>
