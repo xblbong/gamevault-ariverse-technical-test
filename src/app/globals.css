@@ -1,30 +1,62 @@
 @import "tailwindcss";
 
-
+/* Dark Mode Variant */
 @custom-variant dark (&:where(.dark, .dark *));
 
+/* Root Color Variables */
 :root {
-  --background: #F8FAFC;
-  --bg-surface: #FFFFFF;
-  --foreground: #0F172A;
-}
 
-.dark {
-  /* Dark Mode Colors — Prioritas Utama GameVault */
-  --background: #0F172A;
-  --bg-surface: #1E293B;
-  --foreground: #F8FAFC;
+  /* Dark Mode Colors — aplikasikan ketika tidak ada class OR .dark class */
+  .dark {
+    /* ── Backgrounds ── */
+    --gv-bg-base: #0d0d14;
+    /* Main background */
+    --gv-bg-surface: #13131f;
+    /* Card, Navbar background */
+    --gv-bg-elevated: #1a1a2e;
+    /* Hover state, dropdown */
+    --gv-bg-overlay: #22223b;
+    /* Modal, tooltip background */
+
+    /* ── Text ── */
+    --gv-text-primary: #e8e6f0;
+    /* Headings, main content — off-white */
+    --gv-text-secondary: #a09cb5;
+    /* Subtitle, metadata */
+    --gv-text-muted: #6b6880;
+    /* Placeholder, disabled */
+    --gv-text-inverse: #0d0d14;
+    /* Text on light backgrounds */
+
+    /* ── Borders ── */
+    --gv-border-subtle: rgba(255, 255, 255, 0.06);
+    --gv-border-default: rgba(255, 255, 255, 0.10);
+    --gv-border-strong: rgba(255, 255, 255, 0.18);
+    --gv-border-accent: rgba(124, 58, 237, 0.50);
+    /* Violet border on focus */
+
+    /* ── Gradient Overlays ── */
+    --gv-gradient-card: linear-gradient(to top, rgba(13, 13, 20, 0.95) 0%, transparent 60%);
+    --gv-gradient-hero: linear-gradient(to right, rgba(13, 13, 20, 1) 30%, transparent 100%);
+
+    /* ── Semantic Background (used in badges, toasts) ── */
+    --gv-success-bg: rgba(16, 185, 129, 0.12);
+    --gv-error-bg: rgba(239, 68, 68, 0.12);
+    --gv-warning-bg: rgba(245, 158, 11, 0.12);
+    --gv-info-bg: rgba(59, 130, 246, 0.12);
+  }
+  
 }
 
 @theme inline {
   /* Font Families */
- --font-sans: var(--font-plus-jakarta), ui-sans-serif, system-ui;
+  --font-sans: var(--font-plus-jakarta), ui-sans-serif, system-ui;
 
   /* Color Palette — Sesuai DESIGN_SYSTEM.md */
   --color-primary-500: #6D28D9;
   --color-primary-600: #5B21B6;
   --color-accent-cyan: #22D3EE;
-  
+
   /* Semantic Colors */
   --color-rating-excellent: #84CC16;
   --color-rating-good: #EAB308;
@@ -33,7 +65,7 @@
   /* Background Hierarchy */
   --color-bg-base: var(--background);
   --color-bg-surface: var(--bg-surface);
-  
+
   /* Text Hierarchy */
   --color-text-primary: var(--foreground);
   --color-text-secondary: #94A3B8;
@@ -50,11 +82,23 @@
   }
 
   /* Fluid Typography - Bonus Point UX */
-  h1 { font-size: clamp(1.875rem, 5vw, 3rem); }
-  h2 { font-size: clamp(1.5rem, 4vw, 2.25rem); }
+  h1 {
+    font-size: clamp(1.875rem, 5vw, 3rem);
+  }
+
+  h2 {
+    font-size: clamp(1.5rem, 4vw, 2.25rem);
+  }
 }
 
 @keyframes fade-in {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
