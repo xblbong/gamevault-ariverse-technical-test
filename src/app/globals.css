@@ -4,106 +4,99 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 /* Root Color Variables */
-:root {
-
+:root,
+.dark {
   /* Dark Mode Colors — aplikasikan ketika tidak ada class OR .dark class */
-  .dark {
-    /* Backgrounds */
-    --gv-bg-base: #0d0d14;
-    /* Main background */
-    --gv-bg-surface: #13131f;
-    /* Card, Navbar background */
-    --gv-bg-elevated: #1a1a2e;
-    /* Hover state, dropdown */
-    --gv-bg-overlay: #22223b;
-    /* Modal, tooltip background */
+  /* Backgrounds */
+  --gv-bg-base: #0d0d14;
+  /* Main background */
+  --gv-bg-surface: #13131f;
+  /* Card, Navbar background */
+  --gv-bg-elevated: #1a1a2e;
+  /* Hover state, dropdown */
+  --gv-bg-overlay: #22223b;
+  /* Modal, tooltip background */
 
-    /* Text */
-    --gv-text-primary: #e8e6f0;
-    /* Headings, main content — off-white */
-    --gv-text-secondary: #a09cb5;
-    /* Subtitle, metadata */
-    --gv-text-muted: #6b6880;
-    /* Placeholder, disabled */
-    --gv-text-inverse: #0d0d14;
-    /* Text on light backgrounds */
+  /* Text */
+  --gv-text-primary: #e8e6f0;
+  /* Headings, main content — off-white */
+  --gv-text-secondary: #a09cb5;
+  /* Subtitle, metadata */
+  --gv-text-muted: #6b6880;
+  /* Placeholder, disabled */
+  --gv-text-inverse: #0d0d14;
+  /* Text on light backgrounds */
 
-    /* Borders */
-    --gv-border-subtle: rgba(255, 255, 255, 0.06);
-    --gv-border-default: rgba(255, 255, 255, 0.10);
-    --gv-border-strong: rgba(255, 255, 255, 0.18);
-    --gv-border-accent: rgba(124, 58, 237, 0.50);
-    /* Violet border on focus */
+  /* Borders */
+  --gv-border-subtle: rgba(255, 255, 255, 0.06);
+  --gv-border-default: rgba(255, 255, 255, 0.10);
+  --gv-border-strong: rgba(255, 255, 255, 0.18);
+  --gv-border-accent: rgba(124, 58, 237, 0.50);
+  /* Violet border on focus */
 
-    /* Gradient Overlays */
-    --gv-gradient-card: linear-gradient(to top, rgba(13, 13, 20, 0.95) 0%, transparent 60%);
-    --gv-gradient-hero: linear-gradient(to right, rgba(13, 13, 20, 1) 30%, transparent 100%);
+  /* Gradient Overlays */
+  --gv-gradient-card: linear-gradient(to top, rgba(13, 13, 20, 0.95) 0%, transparent 60%);
+  --gv-gradient-hero: linear-gradient(to right, rgba(13, 13, 20, 1) 30%, transparent 100%);
 
-    /* Semantic Background (used in badges, toasts) */
-    --gv-success-bg: rgba(16, 185, 129, 0.12);
-    --gv-error-bg: rgba(239, 68, 68, 0.12);
-    --gv-warning-bg: rgba(245, 158, 11, 0.12);
-    --gv-info-bg: rgba(59, 130, 246, 0.12);
-  }
+  /* Semantic Background (used in badges, toasts) */
+  --gv-success-bg: rgba(16, 185, 129, 0.12);
+  --gv-error-bg: rgba(239, 68, 68, 0.12);
+  --gv-warning-bg: rgba(245, 158, 11, 0.12);
+  --gv-info-bg: rgba(59, 130, 246, 0.12);
+}
 
-  /* Light Mode Colors — aplikasikan ketika tidak ada class OR .light class di body */
-  .light {
-    /* Surface / Background */
-    --gv-bg-base: #f4f3f8;
-    --gv-bg-surface: #ffffff;
-    --gv-bg-elevated: #eeecf5;
-    --gv-bg-overlay: #e4e0f0;
+/* Light Mode Colors — aplikasikan ketika tidak ada class OR .light class di body */
+.light {
+  /* Surface / Background */
+  --gv-bg-base: #f4f3f8;
+  --gv-bg-surface: #ffffff;
+  --gv-bg-elevated: #eeecf5;
+  --gv-bg-overlay: #e4e0f0;
 
-    /* Text */
-    --gv-text-primary: #1a1830;
-    --gv-text-secondary: #4a4660;
-    --gv-text-muted: #8b87a0;
-    --gv-text-inverse: #f4f3f8;
+  /* Text */
+  --gv-text-primary: #1a1830;
+  --gv-text-secondary: #4a4660;
+  --gv-text-muted: #8b87a0;
+  --gv-text-inverse: #f4f3f8;
 
-    /* Borders */
-    --gv-border-subtle: rgba(0, 0, 0, 0.05);
-    --gv-border-default: rgba(0, 0, 0, 0.10);
-    --gv-border-strong: rgba(0, 0, 0, 0.18);
-    --gv-border-accent: rgba(124, 58, 237, 0.40);
+  /* Borders */
+  --gv-border-subtle: rgba(0, 0, 0, 0.05);
+  --gv-border-default: rgba(0, 0, 0, 0.10);
+  --gv-border-strong: rgba(0, 0, 0, 0.18);
+  --gv-border-accent: rgba(124, 58, 237, 0.40);
 
-    /* Gradient Overlays */
-    --gv-gradient-card: linear-gradient(to top, rgba(244, 243, 248, 0.98) 0%, transparent 60%);
-    --gv-gradient-hero: linear-gradient(to right, rgba(244, 243, 248, 1) 30%, transparent 100%);
+  /* Gradient Overlays */
+  --gv-gradient-card: linear-gradient(to top, rgba(244, 243, 248, 0.98) 0%, transparent 60%);
+  --gv-gradient-hero: linear-gradient(to right, rgba(244, 243, 248, 1) 30%, transparent 100%);
 
-    /* Semantic Background */
-    --gv-success-bg: rgba(16, 185, 129, 0.10);
-    --gv-error-bg: rgba(239, 68, 68, 0.10);
-    --gv-warning-bg: rgba(245, 158, 11, 0.10);
-    --gv-info-bg: rgba(59, 130, 246, 0.10);
-  }
-
-
+  /* Semantic Background */
+  --gv-success-bg: rgba(16, 185, 129, 0.10);
+  --gv-error-bg: rgba(239, 68, 68, 0.10);
+  --gv-warning-bg: rgba(245, 158, 11, 0.10);
+  --gv-info-bg: rgba(59, 130, 246, 0.10);
 }
 
 @theme inline {
-  /* Font Families */
-  --font-sans: var(--font-plus-jakarta), ui-sans-serif, system-ui;
-
-  /* Color Palette — Sesuai DESIGN_SYSTEM.md */
-  --color-primary-500: #6D28D9;
-  --color-primary-600: #5B21B6;
-  --color-accent-cyan: #22D3EE;
-
-  /* Semantic Colors */
-  --color-rating-excellent: #84CC16;
-  --color-rating-good: #EAB308;
-  --color-rating-average: #EF4444;
-
-  /* Background Hierarchy */
-  --color-bg-base: var(--background);
-  --color-bg-surface: var(--bg-surface);
-
-  /* Text Hierarchy */
-  --color-text-primary: var(--foreground);
-  --color-text-secondary: #94A3B8;
-
-  /* Animations */
-  --animate-fade-in: fade-in 0.5s ease-out;
+  /* Font Families injected by next/font/google in layout.tsx */
+  --font-sans: var(--font-plus-jakarta), system-ui, -apple-system, sans-serif;
+ 
+  /* Dynamic Surface Colours */
+  --color-bg-base:     var(--gv-bg-base);
+  --color-bg-surface:  var(--gv-bg-surface);
+  --color-bg-elevated: var(--gv-bg-elevated);
+  --color-bg-overlay:  var(--gv-bg-overlay);
+ 
+  /* Dynamic Text Colours */
+  --color-text-primary:   var(--gv-text-primary);
+  --color-text-secondary: var(--gv-text-secondary);
+  --color-text-muted:     var(--gv-text-muted);
+  --color-text-inverse:   var(--gv-text-inverse);
+ 
+  /* Dynamic Border Colours */
+  --color-border-subtle:  var(--gv-border-subtle);
+  --color-border-default: var(--gv-border-default);
+  --color-border-strong:  var(--gv-border-strong);
+  --color-border-accent:  var(--gv-border-accent);
 }
 
 @layer base {
