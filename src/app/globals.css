@@ -8,7 +8,7 @@
 
   /* Dark Mode Colors — aplikasikan ketika tidak ada class OR .dark class */
   .dark {
-    /* ── Backgrounds ── */
+    /* Backgrounds */
     --gv-bg-base: #0d0d14;
     /* Main background */
     --gv-bg-surface: #13131f;
@@ -18,7 +18,7 @@
     --gv-bg-overlay: #22223b;
     /* Modal, tooltip background */
 
-    /* ── Text ── */
+    /* Text */
     --gv-text-primary: #e8e6f0;
     /* Headings, main content — off-white */
     --gv-text-secondary: #a09cb5;
@@ -28,24 +28,56 @@
     --gv-text-inverse: #0d0d14;
     /* Text on light backgrounds */
 
-    /* ── Borders ── */
+    /* Borders */
     --gv-border-subtle: rgba(255, 255, 255, 0.06);
     --gv-border-default: rgba(255, 255, 255, 0.10);
     --gv-border-strong: rgba(255, 255, 255, 0.18);
     --gv-border-accent: rgba(124, 58, 237, 0.50);
     /* Violet border on focus */
 
-    /* ── Gradient Overlays ── */
+    /* Gradient Overlays */
     --gv-gradient-card: linear-gradient(to top, rgba(13, 13, 20, 0.95) 0%, transparent 60%);
     --gv-gradient-hero: linear-gradient(to right, rgba(13, 13, 20, 1) 30%, transparent 100%);
 
-    /* ── Semantic Background (used in badges, toasts) ── */
+    /* Semantic Background (used in badges, toasts) */
     --gv-success-bg: rgba(16, 185, 129, 0.12);
     --gv-error-bg: rgba(239, 68, 68, 0.12);
     --gv-warning-bg: rgba(245, 158, 11, 0.12);
     --gv-info-bg: rgba(59, 130, 246, 0.12);
   }
-  
+
+  /* Light Mode Colors — aplikasikan ketika tidak ada class OR .light class di body */
+  .light {
+    /* Surface / Background */
+    --gv-bg-base: #f4f3f8;
+    --gv-bg-surface: #ffffff;
+    --gv-bg-elevated: #eeecf5;
+    --gv-bg-overlay: #e4e0f0;
+
+    /* Text */
+    --gv-text-primary: #1a1830;
+    --gv-text-secondary: #4a4660;
+    --gv-text-muted: #8b87a0;
+    --gv-text-inverse: #f4f3f8;
+
+    /* Borders */
+    --gv-border-subtle: rgba(0, 0, 0, 0.05);
+    --gv-border-default: rgba(0, 0, 0, 0.10);
+    --gv-border-strong: rgba(0, 0, 0, 0.18);
+    --gv-border-accent: rgba(124, 58, 237, 0.40);
+
+    /* Gradient Overlays */
+    --gv-gradient-card: linear-gradient(to top, rgba(244, 243, 248, 0.98) 0%, transparent 60%);
+    --gv-gradient-hero: linear-gradient(to right, rgba(244, 243, 248, 1) 30%, transparent 100%);
+
+    /* Semantic Background */
+    --gv-success-bg: rgba(16, 185, 129, 0.10);
+    --gv-error-bg: rgba(239, 68, 68, 0.10);
+    --gv-warning-bg: rgba(245, 158, 11, 0.10);
+    --gv-info-bg: rgba(59, 130, 246, 0.10);
+  }
+
+
 }
 
 @theme inline {
