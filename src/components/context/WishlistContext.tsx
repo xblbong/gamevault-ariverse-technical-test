@@ -17,7 +17,7 @@ interface WishlistContextType {
   isHydrated: boolean; // Memberitahu komponen jika data localStorage sudah siap
 }
 
-const WishlistContext = createContext<WishlistContextType | undefined>(undefined);
+export const WishlistContext = createContext<WishlistContextType | undefined>(undefined);
 
 const STORAGE_KEY = "gamevault_wishlist";
 
