@@ -1,5 +1,6 @@
 "use client";
 
+import { createContext } from "react";
 import { Game } from "../types/game";
 
 interface WishlistContextType {
@@ -11,3 +12,6 @@ interface WishlistContextType {
   isInWishlist: (id: number) => boolean;
   isHydrated: boolean; // Memberitahu komponen jika data localStorage sudah siap
 }
+
+const WishlistContext = createContext<WishlistContextType | undefined>(undefined);
+
