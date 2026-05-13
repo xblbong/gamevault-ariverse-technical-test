@@ -99,6 +99,48 @@
   --color-border-accent:  var(--gv-border-accent);
 }
 
+/* thema tailwind css (static values, never change) */
+@theme {
+  /* PRIMARY — Deep Violet */
+  --color-primary-50:  #f0eeff;
+  --color-primary-100: #e3deff;
+  --color-primary-200: #cabeff;
+  --color-primary-300: #a890ff;
+  --color-primary-400: #8b5cf6; /* Violet utama (aksen hover) */
+  --color-primary-500: #7c3aed; /* PRIMARY BRAND COLOR */
+  --color-primary-600: #6d28d9;
+  --color-primary-700: #5b21b6;
+  --color-primary-800: #4c1d95;
+  --color-primary-900: #2e1065;
+ 
+  /* ACCENT */
+  --color-accent-cyan:     #22d3ee; /* Neon Blue/Cyan */
+  --color-accent-cyan-500: #06b6d4;
+  --color-accent-neon:     #a3e635; /* Neon Lime — badge NEW / GRATIS */
+ 
+  /* SEMANTIC */
+  --color-success: #34d399;
+  --color-error:   #f87171;
+  --color-warning: #fbbf24;
+  --color-info:    #60a5fa;
+ 
+  /* RATING */
+  --color-rating-excellent: #a3e635; /* 9.0–10.0 Masterpiece */
+  --color-rating-great:     #22d3ee; /* 7.0–8.9  Great */
+  --color-rating-average:   #fbbf24; /* 5.0–6.9  Mixed */
+  --color-rating-poor:      #f87171; /* 0.0–4.9  Poor */
+ 
+  /* CUSTOM BREAKPOINTS */
+  --breakpoint-xs: 375px; /* Minimum mobile support */
+ 
+  /* ANIMATION DURATIONS */
+  --animate-duration-instant: 50ms;
+  --animate-duration-fast:   150ms;
+  --animate-duration-normal: 250ms;
+  --animate-duration-smooth: 350ms;
+  --animate-duration-slow:   500ms;
+}
+
 @layer base {
   body {
     @apply transition-colors duration-300;
