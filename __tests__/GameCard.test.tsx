@@ -9,7 +9,7 @@ import React from "react";
 import { render, screen, fireEvent } from "@testing-library/react";
 import { GameCard } from "@/components/ui/GameCard";
 import { WishlistContext } from "@/components/context/WishlistContext";
-import { Game } from "@/components/types/game";
+import { Game, Genre, Platform } from "@/components/types/game";
 
 // ─── Mock next/image ───────────────────────────────────────────────────────────
 // next/image menggunakan optimisasi server-side yang tidak tersedia di test env
@@ -66,8 +66,8 @@ const mockGame: Game = {
   ],
   description: "An action RPG set in a vast open world.",
   longDescription: "Elden Ring is a 2022 action role-playing game...",
-  genres: ["RPG", "Action"],
-  platforms: ["PC", "PlayStation 5"],
+  genres: ["RPG", "Action"] as Genre[],
+  platforms: ["PC", "PlayStation 5"] as Platform[],
   developer: "FromSoftware",
   publisher: "Bandai Namco",
   releaseDate: "2022-02-25",
@@ -116,10 +116,11 @@ describe("GameCard", () => {
     expect(screen.getByText(/699/)).toBeInTheDocument();
   });
 
-  it("menampilkan genre game (max 2)", () => {
+  it("menampilkan genre game (hanya genre pertama yang ditampilkan)", () => {
     renderWithWishlist();
+    // Komponen menggunakan .slice(0, 1), hanya genre pertama yang dirender
     expect(screen.getByText("RPG")).toBeInTheDocument();
-    expect(screen.getByText("Action")).toBeInTheDocument();
+    expect(screen.queryByText("Action")).not.toBeInTheDocument();
   });
 
   it("link mengarah ke halaman detail yang benar", () => {
