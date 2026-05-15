@@ -3,660 +3,968 @@
     "id": 1,
     "title": "Elden Ring",
     "slug": "elden-ring",
-    "coverImage": "https://picsum.photos/seed/elden-ring/600/400",
+    "coverImage": "https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?q=80&w=600&h=800&fit=crop",
     "screenshots": [
-      "https://picsum.photos/seed/elden-ring-1/1280/720",
-      "https://picsum.photos/seed/elden-ring-2/1280/720",
-      "https://picsum.photos/seed/elden-ring-3/1280/720"
+      "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?q=80&w=1280&h=720&fit=crop"
     ],
-    "description": "Open-world action RPG yang gelap dan epik, dikembangkan bersama George R.R. Martin.",
-    "longDescription": "Elden Ring adalah game action role-playing yang dikembangkan oleh FromSoftware dan diterbitkan oleh Bandai Namco. Game ini berlatar di Lands Between, dunia fantasi gelap yang diciptakan bersama penulis George R.R. Martin. Pemain menjelajahi dunia open-world yang luas, menghadapi berbagai musuh yang menantang, dan mengungkap misteri di balik kehancuran Elden Ring.",
-    "genres": ["Action", "RPG"],
-    "platforms": ["PC", "PlayStation 5", "PlayStation 4", "Xbox Series X", "Xbox One"],
+    "description": "Open-world action RPG yang gelap dan epik di Lands Between.",
+    "longDescription": "Elden Ring adalah mahakarya FromSoftware yang menggabungkan eksplorasi dunia terbuka yang luas dengan tantangan combat yang intens. Pemain berperan sebagai Tarnished yang berusaha mengumpulkan pecahan Elden Ring untuk menjadi Elden Lord. Dunia ini dirancang dengan sangat detail bersama penulis George R.R. Martin.",
+    "genres": [
+      "Action",
+      "RPG"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 5",
+      "Xbox Series X"
+    ],
     "developer": "FromSoftware",
     "publisher": "Bandai Namco",
     "releaseDate": "2022-02-25",
     "rating": 9.7,
     "price": 699000,
-    "tags": ["soulslike", "open-world", "dark-fantasy", "challenging"],
+    "tags": [
+      "soulslike",
+      "dark-fantasy",
+      "open-world"
+    ],
     "featured": true
   },
   {
     "id": 2,
     "title": "Cyberpunk 2077",
     "slug": "cyberpunk-2077",
-    "coverImage": "https://picsum.photos/seed/cyberpunk-2077/600/400",
+    "coverImage": "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=600&h=800&fit=crop",
     "screenshots": [
-      "https://picsum.photos/seed/cp77-1/1280/720",
-      "https://picsum.photos/seed/cp77-2/1280/720",
-      "https://picsum.photos/seed/cp77-3/1280/720"
+      "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1535223289827-42f1e9919769?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=1280&h=720&fit=crop"
     ],
-    "description": "RPG open-world futuristik di Night City, kota yang terobsesi dengan kekuasaan dan modifikasi tubuh.",
-    "longDescription": "Cyberpunk 2077 adalah game action RPG open-world yang berlatar di Night City, megalopolis futuristik yang penuh kejahatan dan teknologi tinggi. Pemain berperan sebagai V, mercenary yang bisa dikustomisasi, dalam petualangan mencari implan unik yang memberi kunci menuju keabadian. Game ini menampilkan dunia yang sangat detail dengan sistem cerita bercabang dan pilihan moral yang kompleks.",
-    "genres": ["RPG", "Action", "Adventure"],
-    "platforms": ["PC", "PlayStation 5", "Xbox Series X"],
+    "description": "RPG futuristik di megalopolis Night City.",
+    "longDescription": "Jadilah V, tentara bayaran cyberpunk di kota masa depan yang terobsesi dengan kekuasaan dan modifikasi tubuh. Setelah update Phantom Liberty, game ini menjadi salah satu pengalaman RPG terbaik dengan grafis memukau dan narasi yang mendalam.",
+    "genres": [
+      "RPG",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 5"
+    ],
     "developer": "CD Projekt Red",
     "publisher": "CD Projekt",
     "releaseDate": "2020-12-10",
     "rating": 8.5,
     "price": 499000,
-    "tags": ["cyberpunk", "open-world", "futuristic", "story-rich"],
+    "tags": [
+      "cyberpunk",
+      "sci-fi",
+      "story-rich"
+    ],
     "featured": true
   },
   {
     "id": 3,
-    "title": "God of War Ragnarök",
-    "slug": "god-of-war-ragnarok",
-    "coverImage": "https://picsum.photos/seed/gow-ragnarok/600/400",
+    "title": "Forza Horizon 5",
+    "slug": "forza-horizon-5",
+    "coverImage": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=600&h=800&fit=crop",
     "screenshots": [
-      "https://picsum.photos/seed/gow-1/1280/720",
-      "https://picsum.photos/seed/gow-2/1280/720",
-      "https://picsum.photos/seed/gow-3/1280/720"
+      "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=1280&h=720&fit=crop"
     ],
-    "description": "Kratos dan Atreus menghadapi takdir besar saat Fimbulwinter menandai awal Ragnarök.",
-    "longDescription": "God of War Ragnarök melanjutkan kisah epik Kratos dan putranya, Atreus, saat keduanya menghadapi ramalan Ragnarök yang tak terhindarkan. Game ini membawa pemain menjelajahi semua sembilan alam Norse mythology dengan combat yang dipoles, kisah yang lebih dalam, serta karakter-karakter baru yang memukau. Merupakan salah satu game eksklusif PlayStation terbaik yang pernah dibuat.",
-    "genres": ["Action", "Adventure"],
-    "platforms": ["PlayStation 5", "PlayStation 4", "PC"],
-    "developer": "Santa Monica Studio",
-    "publisher": "Sony Interactive Entertainment",
-    "releaseDate": "2022-11-09",
-    "rating": 9.4,
-    "price": 799000,
-    "tags": ["mythology", "action", "story-rich", "cinematic"],
+    "description": "Petualangan balap open-world terbaik di lanskap Meksiko.",
+    "longDescription": "Nikmati ribuan tantangan balap di dunia terbuka yang dinamis. Dari gurun pasir hingga hutan hujan, Forza Horizon 5 menawarkan koleksi ratusan mobil terbaik dunia dengan kustomisasi tanpa batas.",
+    "genres": [
+      "Racing",
+      "Sports"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox Series X"
+    ],
+    "developer": "Playground Games",
+    "publisher": "Xbox Game Studios",
+    "releaseDate": "2021-11-09",
+    "rating": 9.2,
+    "price": 599000,
+    "tags": [
+      "cars",
+      "open-world",
+      "multiplayer"
+    ],
     "featured": true
   },
   {
     "id": 4,
-    "title": "Baldur's Gate 3",
-    "slug": "baldurs-gate-3",
-    "coverImage": "https://picsum.photos/seed/bg3/600/400",
+    "title": "Valorant",
+    "slug": "valorant",
+    "coverImage": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=600&h=800&fit=crop",
     "screenshots": [
-      "https://picsum.photos/seed/bg3-1/1280/720",
-      "https://picsum.photos/seed/bg3-2/1280/720",
-      "https://picsum.photos/seed/bg3-3/1280/720"
+      "https://images.unsplash.com/photo-1560253023-3ee5d6453120?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1542751110-97427bbecf20?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1280&h=720&fit=crop"
     ],
-    "description": "RPG turn-based epik berbasis Dungeons & Dragons dengan kebebasan pilihan yang luar biasa.",
-    "longDescription": "Baldur's Gate 3 adalah game RPG turn-based yang dikembangkan oleh Larian Studios, berdasarkan sistem Dungeons & Dragons 5th Edition. Game ini menawarkan kebebasan pilihan yang belum pernah ada sebelumnya dalam RPG modern, dengan cerita yang bereaksi terhadap setiap keputusan pemain. Bisa dimainkan solo atau co-op hingga 4 pemain dengan ratusan jam konten.",
-    "genres": ["RPG", "Strategy", "Adventure"],
-    "platforms": ["PC", "PlayStation 5", "Mac"],
-    "developer": "Larian Studios",
-    "publisher": "Larian Studios",
-    "releaseDate": "2023-08-03",
-    "rating": 9.6,
-    "price": 599000,
-    "tags": ["dnd", "turn-based", "co-op", "fantasy", "choices-matter"],
-    "featured": false
+    "description": "Tactical FPS 5v5 berbasis agen dengan kemampuan unik.",
+    "longDescription": "Valorant menggabungkan presisi tembakan tactical shooter dengan kemampuan magis unik tiap karakter. Bekerjasama dalam tim 5 orang untuk memasang atau menjinakkan spike dalam pertarungan yang kompetitif.",
+    "genres": [
+      "Shooter",
+      "Action"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "developer": "Riot Games",
+    "publisher": "Riot Games",
+    "releaseDate": "2020-06-02",
+    "rating": 8.0,
+    "price": 0,
+    "tags": [
+      "competitive",
+      "e-sports",
+      "free-to-play"
+    ],
+    "featured": true
   },
   {
     "id": 5,
-    "title": "The Legend of Zelda: Tears of the Kingdom",
-    "slug": "zelda-tears-of-the-kingdom",
-    "coverImage": "https://picsum.photos/seed/zelda-totk/600/400",
+    "title": "Resident Evil Village",
+    "slug": "resident-evil-village",
+    "coverImage": "https://images.unsplash.com/photo-1509248961158-e54f6934749c?q=80&w=600&h=800&fit=crop",
     "screenshots": [
-      "https://picsum.photos/seed/totk-1/1280/720",
-      "https://picsum.photos/seed/totk-2/1280/720",
-      "https://picsum.photos/seed/totk-3/1280/720"
+      "https://images.unsplash.com/photo-1518709766631-a6a7f4593b3e?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1509248961158-e54f6934749c?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1478720568477-152d9b164e26?q=80&w=1280&h=720&fit=crop"
     ],
-    "description": "Link menjelajahi langit dan tanah Hyrule dengan kekuatan baru yang mengubah cara bermain.",
-    "longDescription": "The Legend of Zelda: Tears of the Kingdom adalah sekuel dari Breath of the Wild yang membawa inovasi luar biasa. Kekuatan Ultrahand, Fuse, Ascend, dan Recall membuka kemungkinan kreativitas yang hampir tak terbatas. Hyrule kini diperluas ke langit dan kedalaman bawah tanah, dengan mystery yang lebih dalam dan boss fights yang spektakuler.",
-    "genres": ["Adventure", "Action", "Puzzle"],
-    "platforms": ["Nintendo Switch"],
-    "developer": "Nintendo EPD",
-    "publisher": "Nintendo",
-    "releaseDate": "2023-05-12",
-    "rating": 9.5,
-    "price": 749000,
-    "tags": ["open-world", "puzzle", "adventure", "creative", "nintendo"],
-    "featured": false
+    "description": "Survival horror di desa terpencil yang penuh misteri gothic.",
+    "longDescription": "Ethan Winters harus menghadapi mimpi buruk baru untuk menyelamatkan putrinya. Bertarunglah melawan makhluk mengerikan di sebuah desa Eropa yang dikuasai oleh empat Lord yang misterius.",
+    "genres": [
+      "Horror",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 5",
+      "Xbox Series X"
+    ],
+    "developer": "Capcom",
+    "publisher": "Capcom",
+    "releaseDate": "2021-05-07",
+    "rating": 8.8,
+    "price": 449000,
+    "tags": [
+      "survival-horror",
+      "zombies",
+      "dark"
+    ],
+    "featured": true
   },
   {
     "id": 6,
-    "title": "Hollow Knight",
-    "slug": "hollow-knight",
-    "coverImage": "https://picsum.photos/seed/hollow-knight/600/400",
+    "title": "Genshin Impact",
+    "slug": "genshin-impact",
+    "coverImage": "https://images.unsplash.com/photo-1605379399642-870262d3d051?q=80&w=600&h=800&fit=crop",
     "screenshots": [
-      "https://picsum.photos/seed/hk-1/1280/720",
-      "https://picsum.photos/seed/hk-2/1280/720",
-      "https://picsum.photos/seed/hk-3/1280/720"
+      "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?q=80&w=1280&h=720&fit=crop"
     ],
-    "description": "Metroidvania indie dengan dunia serangga yang gelap, indah, dan penuh misteri.",
-    "longDescription": "Hollow Knight adalah game metroidvania yang dikembangkan oleh Team Cherry. Pemain menjelajahi Hallownest, kerajaan serangga bawah tanah yang luas dan penuh rahasia. Dengan seni hand-drawn yang menakjubkan, musik yang memukau, dan gameplay yang dalam, Hollow Knight menjadi salah satu game indie terbaik sepanjang masa dengan lebih dari 40 jam konten.",
-    "genres": ["Action", "Adventure", "Indie"],
-    "platforms": ["PC", "Nintendo Switch", "PlayStation 4", "Xbox One", "Mac"],
-    "developer": "Team Cherry",
-    "publisher": "Team Cherry",
-    "releaseDate": "2017-02-24",
-    "rating": 9.3,
-    "price": 129000,
-    "tags": ["metroidvania", "indie", "dark", "atmospheric", "challenging"],
-    "featured": false
+    "description": "Eksplorasi dunia fantasi Teyvat yang indah.",
+    "longDescription": "Genshin Impact menawarkan dunia open-world luas yang bisa dijelajahi secara gratis. Kumpulkan berbagai karakter unik dengan elemen berbeda untuk memecahkan teka-teki dan mengalahkan musuh kuat.",
+    "genres": [
+      "RPG",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC",
+      "Mobile",
+      "PlayStation 5"
+    ],
+    "developer": "HoYoverse",
+    "publisher": "HoYoverse",
+    "releaseDate": "2020-09-28",
+    "rating": 8.2,
+    "price": 0,
+    "tags": [
+      "anime",
+      "gacha",
+      "open-world"
+    ],
+    "featured": true
   },
   {
     "id": 7,
-    "title": "Red Dead Redemption 2",
-    "slug": "red-dead-redemption-2",
-    "coverImage": "https://picsum.photos/seed/rdr2/600/400",
+    "title": "Hades",
+    "slug": "hades",
+    "coverImage": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=600&h=800&fit=crop",
     "screenshots": [
-      "https://picsum.photos/seed/rdr2-1/1280/720",
-      "https://picsum.photos/seed/rdr2-2/1280/720",
-      "https://picsum.photos/seed/rdr2-3/1280/720"
+      "https://images.unsplash.com/photo-1518709766631-a6a7f4593b3e?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=1280&h=720&fit=crop"
     ],
-    "description": "Kisah koboi epik di era Wild West dengan dunia open-world yang paling detail pernah dibuat.",
-    "longDescription": "Red Dead Redemption 2 adalah mahakarya Rockstar Games yang menampilkan kisah Arthur Morgan, anggota gang Van der Linde di era Amerika akhir abad ke-19. Game ini memiliki dunia open-world yang luar biasa realistis dengan ekosistem hewan yang hidup, cuaca dinamis, dan NPC yang memiliki rutinitas harian. Salah satu narasi terbaik dalam sejarah video game.",
-    "genres": ["Action", "Adventure"],
-    "platforms": ["PC", "PlayStation 4", "Xbox One"],
-    "developer": "Rockstar Games",
-    "publisher": "Rockstar Games",
-    "releaseDate": "2018-10-26",
-    "rating": 9.5,
-    "price": 499000,
-    "tags": ["western", "open-world", "story-rich", "realistic", "cinematic"],
+    "description": "Roguelike dungeon crawler bertema mitologi Yunani.",
+    "longDescription": "Lawan dewa kematian dan kaburlah dari Underworld. Dengan narasi yang dinamis dan gameplay yang adiktif, setiap percobaan pelarian memberikan cerita dan kekuatan baru.",
+    "genres": [
+      "Action",
+      "Indie"
+    ],
+    "platforms": [
+      "PC",
+      "Nintendo Switch"
+    ],
+    "developer": "Supergiant Games",
+    "publisher": "Supergiant Games",
+    "releaseDate": "2020-09-17",
+    "rating": 9.4,
+    "price": 199000,
+    "tags": [
+      "roguelike",
+      "mythology",
+      "stylized"
+    ],
     "featured": false
   },
   {
     "id": 8,
     "title": "Hades",
     "slug": "hades",
-    "coverImage": "https://picsum.photos/seed/hades-game/600/400",
+    "coverImage": "https://images.unsplash.com/photo-1534423861386-85a16f5d13fd?q=80&w=600&h=800&fit=crop",
     "screenshots": [
-      "https://picsum.photos/seed/hades-1/1280/720",
-      "https://picsum.photos/seed/hades-2/1280/720",
-      "https://picsum.photos/seed/hades-3/1280/720"
+      "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1523875194681-bedd468c58bf?q=80&w=1280&h=720&fit=crop"
     ],
-    "description": "Roguelike action dengan narasi yang terintegrasi dalam gameplay dan seni Yunani yang indah.",
-    "longDescription": "Hades adalah game roguelike action yang dikembangkan oleh Supergiant Games. Pemain berperan sebagai Zagreus, putra dewa kematian, yang berusaha melarikan diri dari dunia bawah. Setiap kematian adalah bagian dari cerita yang terus berkembang. Gameplay-nya sangat adiktif dengan build variety yang tinggi dan voice acting kelas dunia.",
-    "genres": ["Action", "RPG", "Indie"],
-    "platforms": ["PC", "Nintendo Switch", "PlayStation 5", "PlayStation 4", "Xbox Series X", "Mac"],
+    "description": "Roguelike dungeon crawler bertema mitologi Yunani.",
+    "longDescription": "Lawan dewa kematian dan kaburlah dari Underworld. Dengan narasi yang dinamis dan gameplay yang adiktif, setiap percobaan pelarian memberikan cerita dan kekuatan baru.",
+    "genres": [
+      "Action",
+      "Indie"
+    ],
+    "platforms": [
+      "PC",
+      "Nintendo Switch"
+    ],
     "developer": "Supergiant Games",
     "publisher": "Supergiant Games",
     "releaseDate": "2020-09-17",
-    "rating": 9.2,
+    "rating": 9.4,
     "price": 199000,
-    "tags": ["roguelike", "greek-mythology", "indie", "fast-paced", "replayable"],
+    "tags": [
+      "roguelike",
+      "mythology",
+      "stylized"
+    ],
     "featured": false
   },
   {
     "id": 9,
-    "title": "Stardew Valley",
-    "slug": "stardew-valley",
-    "coverImage": "https://picsum.photos/seed/stardew/600/400",
+    "title": "Baldur's Gate 3",
+    "slug": "baldurs-gate-3",
+    "coverImage": "https://images.unsplash.com/photo-1514539079130-25950c84af65?q=80&w=600&h=800&fit=crop",
     "screenshots": [
-      "https://picsum.photos/seed/stardew-1/1280/720",
-      "https://picsum.photos/seed/stardew-2/1280/720",
-      "https://picsum.photos/seed/stardew-3/1280/720"
+      "https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1280&h=720&fit=crop"
     ],
-    "description": "Game farming simulasi relaksasi dengan komunitas desa yang hangat dan penuh kejutan.",
-    "longDescription": "Stardew Valley adalah game simulasi pertanian yang dibuat sendiri oleh ConcernedApe. Pemain mewarisi ladang kakek dan membangunnya dari nol sambil berinteraksi dengan penduduk Pelican Town, menjelajahi dungeon, dan membangun hubungan. Game yang sangat relaxing namun memiliki kedalaman konten yang mengejutkan.",
-    "genres": ["Simulation", "RPG", "Indie"],
-    "platforms": ["PC", "Nintendo Switch", "PlayStation 4", "Xbox One", "Mobile", "Mac"],
-    "developer": "ConcernedApe",
-    "publisher": "ConcernedApe",
-    "releaseDate": "2016-02-26",
-    "rating": 9.0,
-    "price": 149000,
-    "tags": ["farming", "relaxing", "pixel-art", "co-op", "life-sim"],
+    "description": "RPG turn-based epik di dunia Dungeons & Dragons.",
+    "longDescription": "Pemenang Game of the Year 2023. Kumpulkan timmu dan kembali ke Forgotten Realms dalam kisah persahabatan, pengkhianatan, pengorbanan, dan kelangsungan hidup.",
+    "genres": [
+      "RPG",
+      "Strategy"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 5"
+    ],
+    "developer": "Larian Studios",
+    "publisher": "Larian Studios",
+    "releaseDate": "2023-08-03",
+    "rating": 9.6,
+    "price": 599000,
+    "tags": [
+      "turn-based",
+      "fantasy",
+      "choices-matter"
+    ],
     "featured": false
   },
   {
     "id": 10,
-    "title": "Valorant",
-    "slug": "valorant",
-    "coverImage": "https://picsum.photos/seed/valorant/600/400",
+    "title": "Minecraft",
+    "slug": "minecraft",
+    "coverImage": "https://images.unsplash.com/photo-1587573089734-09cb69c0f2b4?q=80&w=600&h=800&fit=crop",
     "screenshots": [
-      "https://picsum.photos/seed/valorant-1/1280/720",
-      "https://picsum.photos/seed/valorant-2/1280/720",
-      "https://picsum.photos/seed/valorant-3/1280/720"
+      "https://images.unsplash.com/photo-1607988523713-add6e8e03f5b?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1280&h=720&fit=crop"
     ],
-    "description": "Tactical FPS 5v5 dengan agen berkemampuan unik dari Riot Games yang mendunia.",
-    "longDescription": "Valorant adalah game tactical first-person shooter 5v5 yang dikembangkan oleh Riot Games. Setiap agen memiliki kemampuan unik yang harus dipadukan dengan aim skill untuk menang. Game ini menawarkan sistem ekonomi yang dalam, meta yang terus berkembang, dan kompetisi esports level dunia. Gratis dimainkan.",
-    "genres": ["Shooter", "Action"],
-    "platforms": ["PC"],
-    "developer": "Riot Games",
-    "publisher": "Riot Games",
-    "releaseDate": "2020-06-02",
-    "rating": 8.0,
-    "price": 0,
-    "tags": ["fps", "tactical", "competitive", "free-to-play", "esports"],
+    "description": "Dunia sandbox tanpa batas untuk kreativitasmu.",
+    "longDescription": "Bangun apa pun yang bisa kamu bayangkan. Minecraft menawarkan kebebasan mutlak dalam dunia yang dibuat secara prosedural, dari rumah sederhana hingga istana megah.",
+    "genres": [
+      "Simulation",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC",
+      "Mobile",
+      "Nintendo Switch"
+    ],
+    "developer": "Mojang Studios",
+    "publisher": "Microsoft",
+    "releaseDate": "2011-11-18",
+    "rating": 9.0,
+    "price": 339000,
+    "tags": [
+      "sandbox",
+      "survival",
+      "creative"
+    ],
     "featured": false
   },
   {
     "id": 11,
-    "title": "The Witcher 3: Wild Hunt",
-    "slug": "witcher-3-wild-hunt",
-    "coverImage": "https://picsum.photos/seed/witcher3/600/400",
+    "title": "Tekken 8",
+    "slug": "tekken-8",
+    "coverImage": "https://images.unsplash.com/photo-1534423861386-85a16f5d13fd?q=80&w=600&h=800&fit=crop",
     "screenshots": [
-      "https://picsum.photos/seed/w3-1/1280/720",
-      "https://picsum.photos/seed/w3-2/1280/720",
-      "https://picsum.photos/seed/w3-3/1280/720"
+      "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?q=80&w=1280&h=720&fit=crop"
     ],
-    "description": "RPG open-world masterpiece dengan pilihan moral yang nyata dan dunia yang hidup.",
-    "longDescription": "The Witcher 3: Wild Hunt adalah puncak pencapaian CD Projekt Red sebelum Cyberpunk 2077. Geralt of Rivia mencari anak asuhnya Ciri di dunia yang penuh perang dan monster. Game ini memiliki quest side yang sekualitas main story, world-building yang sangat kaya, dan sistem combat yang memuaskan.",
-    "genres": ["RPG", "Action", "Adventure"],
-    "platforms": ["PC", "PlayStation 5", "PlayStation 4", "Xbox Series X", "Xbox One", "Nintendo Switch"],
-    "developer": "CD Projekt Red",
-    "publisher": "CD Projekt",
-    "releaseDate": "2015-05-19",
-    "rating": 9.6,
-    "price": 249000,
-    "tags": ["fantasy", "open-world", "story-rich", "choices-matter", "dark"],
+    "description": "Era baru pertarungan 3D yang intens dan visual memukau.",
+    "longDescription": "Lanjutkan perseteruan keluarga Mishima yang legendaris dengan sistem pertarungan Heat yang baru. Tekken 8 menghadirkan aksi pertarungan paling agresif dalam sejarah seri ini.",
+    "genres": [
+      "Fighting",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 5",
+      "Xbox Series X"
+    ],
+    "developer": "Bandai Namco",
+    "publisher": "Bandai Namco",
+    "releaseDate": "2024-01-26",
+    "rating": 8.9,
+    "price": 699000,
+    "tags": [
+      "martial-arts",
+      "competitive",
+      "arcade"
+    ],
     "featured": false
   },
   {
     "id": 12,
-    "title": "Minecraft",
-    "slug": "minecraft",
-    "coverImage": "https://picsum.photos/seed/minecraft/600/400",
+    "title": "Celeste",
+    "slug": "celeste",
+    "coverImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=600&h=800&fit=crop",
     "screenshots": [
-      "https://picsum.photos/seed/mc-1/1280/720",
-      "https://picsum.photos/seed/mc-2/1280/720",
-      "https://picsum.photos/seed/mc-3/1280/720"
+      "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=1280&h=720&fit=crop"
     ],
-    "description": "Game sandbox legendaris tempat kamu membangun, menjelajah, dan bertahan hidup tanpa batas.",
-    "longDescription": "Minecraft adalah game sandbox survival yang tidak perlu penjelasan panjang. Dengan dunia yang dibuat secara prosedural, pemain bisa membangun apa saja, menjelajahi dimensi lain, dan bertahan dari serangan monster. Mod community yang besar membuat kontennya hampir tak terbatas. Game terlaris sepanjang masa.",
-    "genres": ["Simulation", "Adventure", "Indie"],
-    "platforms": ["PC", "PlayStation 5", "PlayStation 4", "Xbox Series X", "Xbox One", "Nintendo Switch", "Mobile"],
-    "developer": "Mojang Studios",
-    "publisher": "Microsoft",
-    "releaseDate": "2011-11-18",
-    "rating": 9.1,
-    "price": 339000,
-    "tags": ["sandbox", "survival", "creative", "multiplayer", "family-friendly"],
+    "description": "Platformer indie tentang mendaki gunung dan menghadapi diri sendiri.",
+    "longDescription": "Bantu Madeline mendaki Gunung Celeste. Game platformer presisi yang sulit namun adil ini menawarkan cerita emosional tentang kesehatan mental dan penemuan jati diri.",
+    "genres": [
+      "Indie",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC",
+      "Nintendo Switch"
+    ],
+    "developer": "Maddy Makes Games",
+    "publisher": "Maddy Makes Games",
+    "releaseDate": "2018-01-25",
+    "rating": 9.3,
+    "price": 129000,
+    "tags": [
+      "difficult",
+      "pixel-art",
+      "great-soundtrack"
+    ],
     "featured": false
   },
   {
     "id": 13,
-    "title": "Sekiro: Shadows Die Twice",
-    "slug": "sekiro-shadows-die-twice",
-    "coverImage": "https://picsum.photos/seed/sekiro/600/400",
+    "title": "Dark Souls III",
+    "slug": "dark-souls-3",
+    "coverImage": "https://images.unsplash.com/photo-1614850523296-d8c1af93d400?q=80&w=600&h=800&fit=crop",
     "screenshots": [
-      "https://picsum.photos/seed/sekiro-1/1280/720",
-      "https://picsum.photos/seed/sekiro-2/1280/720",
-      "https://picsum.photos/seed/sekiro-3/1280/720"
+      "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?q=80&w=1280&h=720&fit=crop"
     ],
-    "description": "Action game shinobi di Jepang feodal dengan sistem parry yang paling rewarding.",
-    "longDescription": "Sekiro: Shadows Die Twice adalah game action dari FromSoftware yang berfokus pada seni bela diri Jepang. Pemain berperan sebagai Wolf, seorang shinobi yang berusaha menyelamatkan tuannya. Berbeda dari Souls series, Sekiro mengandalkan posture system dan timing yang presisi. Setiap boss fight adalah masterclass dalam desain game.",
-    "genres": ["Action", "Adventure"],
-    "platforms": ["PC", "PlayStation 4", "Xbox One"],
+    "description": "Penutup epik dari trilogi fantasi gelap Dark Souls.",
+    "longDescription": "Lawan bos-bos raksasa dan jelajahi kerajaan yang hampir hancur. Dark Souls III menyempurnakan formula combat yang menantang dengan visual yang mempesona.",
+    "genres": [
+      "Action",
+      "RPG"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 4"
+    ],
     "developer": "FromSoftware",
-    "publisher": "Activision",
-    "releaseDate": "2019-03-22",
-    "rating": 9.1,
-    "price": 499000,
-    "tags": ["soulslike", "samurai", "japan", "challenging", "skillbased"],
+    "publisher": "Bandai Namco",
+    "releaseDate": "2016-03-24",
+    "rating": 9.2,
+    "price": 349000,
+    "tags": [
+      "soulslike",
+      "hard",
+      "dark-fantasy"
+    ],
     "featured": false
   },
   {
     "id": 14,
-    "title": "Apex Legends",
-    "slug": "apex-legends",
-    "coverImage": "https://picsum.photos/seed/apex-legends/600/400",
+    "title": "Ghostrunner 2",
+    "slug": "ghostrunner-2",
+    "coverImage": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=600&h=800&fit=crop",
     "screenshots": [
-      "https://picsum.photos/seed/apex-1/1280/720",
-      "https://picsum.photos/seed/apex-2/1280/720",
-      "https://picsum.photos/seed/apex-3/1280/720"
+      "https://images.unsplash.com/photo-1535223289827-42f1e9919769?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1280&h=720&fit=crop"
     ],
-    "description": "Battle royale squad-based dengan movement system terbaik di genre-nya.",
-    "longDescription": "Apex Legends adalah game battle royale hero shooter yang dikembangkan oleh Respawn Entertainment. Dengan 60 Legends yang bisa dipilih, sistem ping yang revolusioner, dan movement yang sangat fluid, Apex mendefinisikan ulang standar battle royale. Gratis dimainkan dengan model seasonal content.",
-    "genres": ["Shooter", "Battle Royale", "Action"],
-    "platforms": ["PC", "PlayStation 5", "PlayStation 4", "Xbox Series X", "Xbox One", "Nintendo Switch", "Mobile"],
-    "developer": "Respawn Entertainment",
-    "publisher": "Electronic Arts",
-    "releaseDate": "2019-02-04",
-    "rating": 8.3,
-    "price": 0,
-    "tags": ["battle-royale", "free-to-play", "hero-shooter", "squad", "competitive"],
+    "description": "Aksi ninja cyberpunk satu tebasan yang memacu adrenalin.",
+    "longDescription": "Lompat, parry, dan tebas musuhmu dalam kecepatan supersonik. Ghostrunner 2 menghadirkan level baru dari aksi parkour di dunia masa depan yang kelam.",
+    "genres": [
+      "Action",
+      "Indie"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 5"
+    ],
+    "developer": "One More Level",
+    "publisher": "505 Games",
+    "releaseDate": "2023-10-26",
+    "rating": 8.4,
+    "price": 449000,
+    "tags": [
+      "fast-paced",
+      "cyberpunk",
+      "parkour"
+    ],
     "featured": false
   },
   {
     "id": 15,
-    "title": "Resident Evil Village",
-    "slug": "resident-evil-village",
-    "coverImage": "https://picsum.photos/seed/re-village/600/400",
+    "title": "Outer Wilds",
+    "slug": "outer-wilds",
+    "coverImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&h=800&fit=crop",
     "screenshots": [
-      "https://picsum.photos/seed/rev-1/1280/720",
-      "https://picsum.photos/seed/rev-2/1280/720",
-      "https://picsum.photos/seed/rev-3/1280/720"
+      "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1506318137071-a8e063b4b4bf?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1454789548928-9efd52dc4031?q=80&w=1280&h=720&fit=crop"
     ],
-    "description": "Survival horror first-person dengan setting desa gothic dan Lady Dimitrescu yang ikonik.",
-    "longDescription": "Resident Evil Village adalah entri ke-8 dalam seri RE yang kembali ke perspektif first-person. Ethan Winters harus menyelamatkan putrinya dari sebuah desa gothic misterius yang dikuasai empat lord supernatural. Dengan atmosfer yang mencekam, gameplay yang seru, dan boss fights yang tak terlupakan, RE Village adalah pengalaman horror terbaik generasi ini.",
-    "genres": ["Horror", "Action", "Adventure"],
-    "platforms": ["PC", "PlayStation 5", "PlayStation 4", "Xbox Series X", "Xbox One"],
-    "developer": "Capcom",
-    "publisher": "Capcom",
-    "releaseDate": "2021-05-07",
-    "rating": 8.8,
-    "price": 449000,
-    "tags": ["horror", "survival", "gothic", "first-person", "atmospheric"],
+    "description": "Eksplorasi luar angkasa dalam loop waktu 22 menit.",
+    "longDescription": "Outer Wilds adalah misteri open-world tentang tata surya yang terjebak dalam loop waktu tanpa akhir. Ungkap rahasia peradaban kuno sebelum matahari meledak.",
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 4"
+    ],
+    "developer": "Mobius Digital",
+    "publisher": "Annapurna Interactive",
+    "releaseDate": "2019-05-29",
+    "rating": 9.5,
+    "price": 249000,
+    "tags": [
+      "exploration",
+      "mystery",
+      "space"
+    ],
     "featured": false
   },
   {
     "id": 16,
-    "title": "Celeste",
-    "slug": "celeste",
-    "coverImage": "https://picsum.photos/seed/celeste-game/600/400",
+    "title": "Street Fighter 6",
+    "slug": "street-fighter-6",
+    "coverImage": "https://images.unsplash.com/photo-1534423861386-85a16f5d13fd?q=80&w=600&h=800&fit=crop",
     "screenshots": [
-      "https://picsum.photos/seed/celeste-1/1280/720",
-      "https://picsum.photos/seed/celeste-2/1280/720",
-      "https://picsum.photos/seed/celeste-3/1280/720"
+      "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?q=80&w=1280&h=720&fit=crop"
     ],
-    "description": "Platformer indie yang menyentuh hati tentang perjuangan mental health dengan gameplay presisi.",
-    "longDescription": "Celeste adalah game platformer precision yang dikembangkan oleh Maddy Thorson dan Noel Berry. Madeline mendaki Gunung Celeste sambil menghadapi kegelisahan dan depresinya. Selain gameplay yang menantang dan memuaskan, Celeste memiliki narasi tentang mental health yang autentik dan soundtrack yang luar biasa indah.",
-    "genres": ["Action", "Indie", "Puzzle"],
-    "platforms": ["PC", "Nintendo Switch", "PlayStation 4", "Xbox One", "Mac"],
-    "developer": "Maddy Makes Games",
-    "publisher": "Maddy Makes Games",
-    "releaseDate": "2018-01-25",
-    "rating": 9.2,
-    "price": 129000,
-    "tags": ["platformer", "indie", "pixel-art", "mental-health", "challenging"],
+    "description": "Evolusi terbaru dari seri game fighting paling ikonik.",
+    "longDescription": "Capcom membawa seri ini ke level baru dengan mode World Tour yang luas dan sistem Drive yang inovatif. Street Fighter 6 mendefinisikan ulang genre fighting untuk generasi baru.",
+    "genres": [
+      "Fighting",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 5"
+    ],
+    "developer": "Capcom",
+    "publisher": "Capcom",
+    "releaseDate": "2023-06-02",
+    "rating": 8.7,
+    "price": 549000,
+    "tags": [
+      "competitive",
+      "arcade",
+      "multiplayer"
+    ],
     "featured": false
   },
   {
     "id": 17,
-    "title": "Genshin Impact",
-    "slug": "genshin-impact",
-    "coverImage": "https://picsum.photos/seed/genshin/600/400",
+    "title": "Lies of P",
+    "slug": "lies-of-p",
+    "coverImage": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=600&h=800&fit=crop",
     "screenshots": [
-      "https://picsum.photos/seed/genshin-1/1280/720",
-      "https://picsum.photos/seed/genshin-2/1280/720",
-      "https://picsum.photos/seed/genshin-3/1280/720"
+      "https://images.unsplash.com/photo-1509248961158-e54f6934749c?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1533167649158-6d508895b680?q=80&w=1280&h=720&fit=crop"
     ],
-    "description": "Action RPG gacha free-to-play dengan dunia Teyvat yang memukau dan sistem elemental yang dalam.",
-    "longDescription": "Genshin Impact adalah game action RPG open-world yang dikembangkan oleh HoYoverse. Pemain menjelajahi dunia Teyvat yang luas, mengumpulkan karakter dengan elemen berbeda, dan menggabungkan mereka dalam tim untuk combat yang strategis. Meski memiliki sistem gacha, konten utamanya bisa dinikmati sepenuhnya tanpa bayar.",
-    "genres": ["Action", "RPG", "Adventure"],
-    "platforms": ["PC", "PlayStation 5", "PlayStation 4", "Mobile"],
-    "developer": "HoYoverse",
-    "publisher": "HoYoverse",
-    "releaseDate": "2020-09-28",
-    "rating": 8.2,
-    "price": 0,
-    "tags": ["gacha", "open-world", "anime", "free-to-play", "co-op"],
+    "description": "Action RPG bertema Pinokio di era Belle Époque yang kelam.",
+    "longDescription": "Lawan automata gila di kota Krat. Lies of P adalah soulslike yang memukau dengan mekanik senjata yang unik dan atmosfer yang sangat mencekam.",
+    "genres": [
+      "Action",
+      "RPG"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 5"
+    ],
+    "developer": "NEOWIZ",
+    "publisher": "NEOWIZ",
+    "releaseDate": "2023-09-19",
+    "rating": 8.6,
+    "price": 499000,
+    "tags": [
+      "soulslike",
+      "dark",
+      "story-rich"
+    ],
     "featured": false
   },
   {
     "id": 18,
-    "title": "Disco Elysium",
-    "slug": "disco-elysium",
-    "coverImage": "https://picsum.photos/seed/disco-elysium/600/400",
+    "title": "Persona 5 Royal",
+    "slug": "persona-5-royal",
+    "coverImage": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?q=80&w=600&h=800&fit=crop",
     "screenshots": [
-      "https://picsum.photos/seed/disco-1/1280/720",
-      "https://picsum.photos/seed/disco-2/1280/720",
-      "https://picsum.photos/seed/disco-3/1280/720"
+      "https://images.unsplash.com/photo-1514467950401-4368c6806c0a?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1560253023-3ee5d6453120?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?q=80&w=1280&h=720&fit=crop"
     ],
-    "description": "RPG detektif dengan dialog yang tak tertandingi dan kebebasan roleplay yang absolut.",
-    "longDescription": "Disco Elysium adalah RPG isometrik dari ZA/UM yang lebih mirip novel interaktif dari game biasa. Pemain berperan sebagai detektif amnesia yang menyelidiki pembunuhan di kota Revachol. Tidak ada combat — semua diselesaikan dengan dialog dan skill check. Tulisannya adalah yang terbaik dalam medium video game.",
-    "genres": ["RPG", "Adventure"],
-    "platforms": ["PC", "PlayStation 5", "PlayStation 4"],
-    "developer": "ZA/UM",
-    "publisher": "ZA/UM",
-    "releaseDate": "2019-10-15",
-    "rating": 9.1,
-    "price": 249000,
-    "tags": ["detective", "narrative", "choices-matter", "political", "unique"],
+    "description": "JRPG stylish tentang pencuri hati di Tokyo modern.",
+    "longDescription": "Persona 5 Royal adalah versi definitif dari mahakarya Atlus. Gabungkan kehidupan sekolah sehari-hari dengan petualangan supernatural di dimensi Metaverse.",
+    "genres": [
+      "RPG",
+      "Strategy"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 4",
+      "Nintendo Switch"
+    ],
+    "developer": "Atlus",
+    "publisher": "SEGA",
+    "releaseDate": "2019-10-31",
+    "rating": 9.5,
+    "price": 499000,
+    "tags": [
+      "anime",
+      "turn-based",
+      "school-life"
+    ],
     "featured": false
   },
   {
     "id": 19,
-    "title": "Forza Horizon 5",
-    "slug": "forza-horizon-5",
-    "coverImage": "https://picsum.photos/seed/forza-h5/600/400",
+    "title": "Apex Legends",
+    "slug": "apex-legends",
+    "coverImage": "https://images.unsplash.com/photo-1560419015-7c427e8ae5ba?q=80&w=600&h=800&fit=crop",
     "screenshots": [
-      "https://picsum.photos/seed/fh5-1/1280/720",
-      "https://picsum.photos/seed/fh5-2/1280/720",
-      "https://picsum.photos/seed/fh5-3/1280/720"
+      "https://images.unsplash.com/photo-1542751110-97427bbecf20?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1560253023-3ee5d6453120?q=80&w=1280&h=720&fit=crop"
     ],
-    "description": "Racing game open-world terbaik dengan ratusan mobil dan lanskap Meksiko yang menakjubkan.",
-    "longDescription": "Forza Horizon 5 adalah game racing open-world yang berlatar di Meksiko. Dengan lebih dari 500 mobil berlisensi, dunia yang luar biasa indah, dan berbagai event dari off-road hingga street racing, FH5 adalah puncak dari genre racing casual. Sempurna untuk penggemar otomotif maupun gamer umum.",
-    "genres": ["Racing", "Sports"],
-    "platforms": ["PC", "Xbox Series X", "Xbox One"],
-    "developer": "Playground Games",
-    "publisher": "Xbox Game Studios",
-    "releaseDate": "2021-11-09",
-    "rating": 8.9,
-    "price": 499000,
-    "tags": ["racing", "open-world", "cars", "multiplayer", "beautiful"],
+    "description": "Battle Royale cepat dengan karakter berkemampuan unik.",
+    "longDescription": "Kuasai berbagai Legend dengan skill unik dalam pertempuran tim 3 orang. Apex Legends menawarkan movement yang sangat fluid dan taktik tim yang dalam.",
+    "genres": [
+      "Shooter",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "developer": "Respawn Entertainment",
+    "publisher": "EA",
+    "releaseDate": "2019-02-04",
+    "rating": 8.3,
+    "price": 0,
+    "tags": [
+      "battle-royale",
+      "free-to-play",
+      "multiplayer"
+    ],
     "featured": false
   },
   {
     "id": 20,
     "title": "Among Us",
     "slug": "among-us",
-    "coverImage": "https://picsum.photos/seed/among-us/600/400",
+    "coverImage": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=600&h=800&fit=crop",
     "screenshots": [
-      "https://picsum.photos/seed/au-1/1280/720",
-      "https://picsum.photos/seed/au-2/1280/720",
-      "https://picsum.photos/seed/au-3/1280/720"
+      "https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1506318137071-a8e063b4b4bf?q=80&w=1280&h=720&fit=crop"
     ],
-    "description": "Game party sosial deduksi tentang kepercayaan, kebohongan, dan impostor di luar angkasa.",
-    "longDescription": "Among Us adalah game multiplayer sosial yang meledak popularitasnya saat pandemi 2020. Pemain berperan sebagai awak kapal luar angkasa yang harus menyelesaikan task sambil mengidentifikasi Impostor yang membunuh mereka satu per satu. Sempurna untuk dimainkan bersama teman.",
-    "genres": ["Strategy", "Indie"],
-    "platforms": ["PC", "Nintendo Switch", "PlayStation 5", "PlayStation 4", "Xbox Series X", "Mobile"],
+    "description": "Game deduksi sosial tentang impostor di kapal luar angkasa.",
+    "longDescription": "Temukan pengkhianat di antara awak kapal atau sabotase seluruh misi sebagai Impostor. Game sosial yang sangat seru dimainkan bersama teman-teman.",
+    "genres": [
+      "Indie",
+      "Strategy"
+    ],
+    "platforms": [
+      "PC",
+      "Mobile",
+      "Nintendo Switch"
+    ],
     "developer": "Innersloth",
     "publisher": "Innersloth",
     "releaseDate": "2018-06-15",
     "rating": 7.8,
     "price": 0,
-    "tags": ["party", "social-deduction", "multiplayer", "casual", "free-to-play"],
+    "tags": [
+      "multiplayer",
+      "party",
+      "social-deduction"
+    ],
     "featured": false
   },
   {
     "id": 21,
-    "title": "Dark Souls III",
-    "slug": "dark-souls-3",
-    "coverImage": "https://picsum.photos/seed/ds3/600/400",
+    "title": "Monster Hunter World",
+    "slug": "monster-hunter-world",
+    "coverImage": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?q=80&w=600&h=800&fit=crop",
     "screenshots": [
-      "https://picsum.photos/seed/ds3-1/1280/720",
-      "https://picsum.photos/seed/ds3-2/1280/720",
-      "https://picsum.photos/seed/ds3-3/1280/720"
+      "https://images.unsplash.com/photo-1533481406262-7a721ee11091?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1542751110-97427bbecf20?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1280&h=720&fit=crop"
     ],
-    "description": "Puncak dari triologi Dark Souls dengan boss fights paling memukau dari FromSoftware.",
-    "longDescription": "Dark Souls III adalah entri terakhir dalam seri Dark Souls dari FromSoftware. Game ini menggabungkan kecepatan combat dari Bloodborne dengan kedalaman build dari DS1 dan DS2. Dunianya yang saling terhubung, lore yang misterius, dan boss fights yang epik membuat DS3 menjadi salah satu game terbaik dari genre soulslike.",
-    "genres": ["Action", "RPG"],
-    "platforms": ["PC", "PlayStation 4", "Xbox One"],
-    "developer": "FromSoftware",
-    "publisher": "Bandai Namco",
-    "releaseDate": "2016-03-24",
+    "description": "Berburu monster raksasa di ekosistem yang hidup.",
+    "longDescription": "Jadilah Hunter dan taklukkan monster menakutkan dalam dunia yang penuh dengan detail. Gunakan bahan dari monster untuk membuat perlengkapan yang lebih kuat.",
+    "genres": [
+      "Action",
+      "RPG"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 4"
+    ],
+    "developer": "Capcom",
+    "publisher": "Capcom",
+    "releaseDate": "2018-01-26",
     "rating": 9.0,
-    "price": 349000,
-    "tags": ["soulslike", "dark-fantasy", "challenging", "lore-rich", "multiplayer"],
+    "price": 279000,
+    "tags": [
+      "hunting",
+      "co-op",
+      "grinding"
+    ],
     "featured": false
   },
   {
     "id": 22,
+    "title": "Disco Elysium",
+    "slug": "disco-elysium",
+    "coverImage": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=600&h=800&fit=crop",
+    "screenshots": [
+      "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1280&h=720&fit=crop"
+    ],
+    "description": "RPG detektif yang revolusioner dengan dialog yang dalam.",
+    "longDescription": "Pecahkan kasus pembunuhan atau terima suap. Disco Elysium memberikan kebebasan roleplay yang belum pernah ada sebelumnya dalam sejarah game RPG.",
+    "genres": [
+      "RPG",
+      "Indie"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 5"
+    ],
+    "developer": "ZA/UM",
+    "publisher": "ZA/UM",
+    "releaseDate": "2019-10-15",
+    "rating": 9.2,
+    "price": 169000,
+    "tags": [
+      "detective",
+      "philosophy",
+      "story-rich"
+    ],
+    "featured": false
+  },
+  {
+    "id": 23,
     "title": "Portal 2",
     "slug": "portal-2",
-    "coverImage": "https://picsum.photos/seed/portal2/600/400",
+    "coverImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=600&h=800&fit=crop",
     "screenshots": [
-      "https://picsum.photos/seed/p2-1/1280/720",
-      "https://picsum.photos/seed/p2-2/1280/720",
-      "https://picsum.photos/seed/p2-3/1280/720"
+      "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=1280&h=720&fit=crop"
     ],
-    "description": "Puzzle FPS terbaik yang pernah dibuat dengan humor cerdas dan co-op yang brilian.",
-    "longDescription": "Portal 2 adalah game puzzle first-person dari Valve yang dianggap sebagai salah satu game terbaik sepanjang masa. Menggunakan portal gun untuk memecahkan teka-teki fisika yang semakin kompleks, pemain ditemani oleh GLaDOS yang sinis. Mode co-op dua pemain-nya adalah pengalaman yang unik dan tak terlupakan.",
-    "genres": ["Puzzle", "Action", "Adventure"],
-    "platforms": ["PC", "PlayStation 3", "Mac"],
+    "description": "Game puzzle berbasis portal yang jenius dan lucu.",
+    "longDescription": "Gunakan Portal Gun untuk memecahkan teka-teki fisika yang menantang. Portal 2 menghadirkan humor cerdas, cerita menarik, dan mode co-op yang legendaris.",
+    "genres": [
+      "Puzzle",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox 360"
+    ],
     "developer": "Valve",
     "publisher": "Valve",
     "releaseDate": "2011-04-19",
     "rating": 9.4,
     "price": 99000,
-    "tags": ["puzzle", "co-op", "humor", "science-fiction", "classic"],
-    "featured": false
-  },
-  {
-    "id": 23,
-    "title": "Street Fighter 6",
-    "slug": "street-fighter-6",
-    "coverImage": "https://picsum.photos/seed/sf6/600/400",
-    "screenshots": [
-      "https://picsum.photos/seed/sf6-1/1280/720",
-      "https://picsum.photos/seed/sf6-2/1280/720",
-      "https://picsum.photos/seed/sf6-3/1280/720"
+    "tags": [
+      "first-person",
+      "puzzle",
+      "classic"
     ],
-    "description": "Rebirth dari franchise fighting game legendaris dengan World Tour mode yang inovatif.",
-    "longDescription": "Street Fighter 6 adalah reboot sempurna dari seri Street Fighter yang dikembangkan oleh Capcom. Dengan sistem Drive yang menambah kedalaman gameplay, World Tour mode yang luas, dan grafis yang memukau, SF6 berhasil menjadi accessible bagi pemula sekaligus dalam bagi veteran. Esports scene-nya sangat aktif.",
-    "genres": ["Fighting", "Action"],
-    "platforms": ["PC", "PlayStation 5", "PlayStation 4", "Xbox Series X"],
-    "developer": "Capcom",
-    "publisher": "Capcom",
-    "releaseDate": "2023-06-02",
-    "rating": 8.7,
-    "price": 549000,
-    "tags": ["fighting", "competitive", "esports", "2d", "combo"],
     "featured": false
   },
   {
     "id": 24,
-    "title": "Lies of P",
-    "slug": "lies-of-p",
-    "coverImage": "https://picsum.photos/seed/lies-of-p/600/400",
+    "title": "Red Dead Redemption 2",
+    "slug": "red-dead-redemption-2",
+    "coverImage": "https://images.unsplash.com/photo-1533167649158-6d508895b680?q=80&w=600&h=800&fit=crop",
     "screenshots": [
-      "https://picsum.photos/seed/lop-1/1280/720",
-      "https://picsum.photos/seed/lop-2/1280/720",
-      "https://picsum.photos/seed/lop-3/1280/720"
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1506466010722-395aa2bef877?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1493246507139-91e8bef99c1e?q=80&w=1280&h=720&fit=crop"
     ],
-    "description": "Soulslike gelap berbasis cerita Pinokio dengan weapon assembly system yang inovatif.",
-    "longDescription": "Lies of P adalah game soulslike dari NEOWIZ yang mengambil inspirasi dari cerita Pinokio namun mengubahnya menjadi dark fantasy gothic. Berlatar di kota Belle Époque yang dikuasai automata, game ini menampilkan sistem weapon assembly yang memungkinkan ratusan kombinasi senjata, serta mechanic berbohong yang mempengaruhi cerita.",
-    "genres": ["Action", "RPG"],
-    "platforms": ["PC", "PlayStation 5", "PlayStation 4", "Xbox Series X", "Xbox One"],
-    "developer": "NEOWIZ",
-    "publisher": "NEOWIZ",
-    "releaseDate": "2023-09-19",
-    "rating": 8.2,
-    "price": 449000,
-    "tags": ["soulslike", "gothic", "steampunk", "fairy-tale", "dark"],
+    "description": "Kisah epik penjahat Amerika di era koboi yang hampir berakhir.",
+    "longDescription": "Rockstar menghadirkan dunia yang sangat realistis dengan detail luar biasa. Ikuti kisah Arthur Morgan dan geng Van der Linde dalam perjuangan mereka untuk bertahan hidup.",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 4"
+    ],
+    "developer": "Rockstar Games",
+    "publisher": "Rockstar Games",
+    "releaseDate": "2018-10-26",
+    "rating": 9.6,
+    "price": 499000,
+    "tags": [
+      "western",
+      "story-rich",
+      "masterpiece"
+    ],
     "featured": false
   },
   {
     "id": 25,
-    "title": "Persona 5 Royal",
-    "slug": "persona-5-royal",
-    "coverImage": "https://picsum.photos/seed/persona5/600/400",
+    "title": "Hollow Knight",
+    "slug": "hollow-knight",
+    "coverImage": "https://images.unsplash.com/photo-1614850523296-d8c1af93d400?q=80&w=600&h=800&fit=crop",
     "screenshots": [
-      "https://picsum.photos/seed/p5r-1/1280/720",
-      "https://picsum.photos/seed/p5r-2/1280/720",
-      "https://picsum.photos/seed/p5r-3/1280/720"
+      "https://images.unsplash.com/photo-1501446529957-6226bd447c46?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=1280&h=720&fit=crop"
     ],
-    "description": "JRPG dengan gaya visual paling stylish yang pernah ada dan simulasi kehidupan sekolah yang dalam.",
-    "longDescription": "Persona 5 Royal adalah versi definitif dari JRPG masterpiece Atlus. Pemain berperan sebagai Joker, ketua kelompok Phantom Thieves yang mencuri hati penjahat. Menggabungkan dungeon crawling turn-based dengan simulasi kehidupan sekolah, Persona 5 Royal memiliki presentasi yang tak tertandingi dalam genre JRPG.",
-    "genres": ["RPG", "Adventure"],
-    "platforms": ["PC", "PlayStation 5", "PlayStation 4", "Xbox Series X", "Nintendo Switch"],
-    "developer": "Atlus",
-    "publisher": "Sega",
-    "releaseDate": "2019-10-31",
-    "rating": 9.5,
-    "price": 499000,
-    "tags": ["jrpg", "turn-based", "anime", "school-life", "stylish"],
+    "description": "Metroidvania indah di dunia serangga yang misterius.",
+    "longDescription": "Jelajahi kerajaan Hallownest yang luas dan temukan rahasianya. Hollow Knight menawarkan gameplay yang presisi, atmosfer yang memukau, dan musik yang luar biasa.",
+    "genres": [
+      "Indie",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "Nintendo Switch"
+    ],
+    "developer": "Team Cherry",
+    "publisher": "Team Cherry",
+    "releaseDate": "2017-02-24",
+    "rating": 9.4,
+    "price": 129000,
+    "tags": [
+      "metroidvania",
+      "difficult",
+      "atmospheric"
+    ],
     "featured": false
   },
   {
     "id": 26,
-    "title": "Ghostrunner 2",
-    "slug": "ghostrunner-2",
-    "coverImage": "https://picsum.photos/seed/ghostrunner2/600/400",
+    "title": "The Witcher 3: Wild Hunt",
+    "slug": "witcher-3-wild-hunt",
+    "coverImage": "https://images.unsplash.com/photo-1506466010722-395aa2bef877?q=80&w=600&h=800&fit=crop",
     "screenshots": [
-      "https://picsum.photos/seed/gr2-1/1280/720",
-      "https://picsum.photos/seed/gr2-2/1280/720",
-      "https://picsum.photos/seed/gr2-3/1280/720"
+      "https://images.unsplash.com/photo-1519074063912-ad25b5b1922e?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1514467950401-4368c6806c0a?q=80&w=1280&h=720&fit=crop"
     ],
-    "description": "Cyberpunk parkour action dengan kecepatan supersonic dan satu hit-kill yang memacu adrenalin.",
-    "longDescription": "Ghostrunner 2 meningkatkan semua yang ada di game pertama. Sebagai cyberpunk ninja dengan blade tinggi, pemain berlari di dinding, melakukan parry, dan membunuh musuh dalam satu gerakan fluid. Dengan penambahan motor cyberpunk untuk sequence outdoor dan skill tree yang lebih dalam, GR2 adalah adrenaline rush murni.",
-    "genres": ["Action", "Shooter"],
-    "platforms": ["PC", "PlayStation 5", "Xbox Series X"],
-    "developer": "One More Level",
-    "publisher": "505 Games",
-    "releaseDate": "2023-10-26",
-    "rating": 8.4,
-    "price": 449000,
-    "tags": ["cyberpunk", "parkour", "fast-paced", "difficult", "stylish"],
+    "description": "Mahakarya RPG open-world dengan cerita yang tak tertandingi.",
+    "longDescription": "Jadilah Geralt of Rivia, pemburu monster profesional. Cari anak asuhmu, Ciri, di dunia fantasi luas yang penuh dengan monster, politik, dan pilihan moral yang sulit.",
+    "genres": [
+      "RPG",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 5"
+    ],
+    "developer": "CD Projekt Red",
+    "publisher": "CD Projekt",
+    "releaseDate": "2015-05-19",
+    "rating": 9.5,
+    "price": 249000,
+    "tags": [
+      "masterpiece",
+      "story-rich",
+      "fantasy"
+    ],
     "featured": false
   },
   {
     "id": 27,
-    "title": "Outer Wilds",
-    "slug": "outer-wilds",
-    "coverImage": "https://picsum.photos/seed/outer-wilds/600/400",
-    "screenshots": [
-      "https://picsum.photos/seed/ow-1/1280/720",
-      "https://picsum.photos/seed/ow-2/1280/720",
-      "https://picsum.photos/seed/ow-3/1280/720"
-    ],
-    "description": "Game eksplorasi ruang angkasa dengan misteri terbesar yang pernah dibuat dalam video game.",
-    "longDescription": "Outer Wilds adalah game eksplorasi ruang angkasa dari Mobius Digital yang dianggap sebagai salah satu game terbaik dari dekade terakhir. Pemain menjelajahi tata surya kecil yang terjebak dalam time loop 22 menit, mengungkap misteri peradaban kuno Nomai. Semua 'kemajuan' murni berbasis pengetahuan, bukan level atau item.",
-    "genres": ["Adventure", "Puzzle"],
-    "platforms": ["PC", "PlayStation 4", "Xbox One"],
-    "developer": "Mobius Digital",
-    "publisher": "Annapurna Interactive",
-    "releaseDate": "2019-05-29",
-    "rating": 9.3,
-    "price": 199000,
-    "tags": ["exploration", "mystery", "space", "indie", "unique"],
-    "featured": false
-  },
-  {
-    "id": 28,
-    "title": "Tekken 8",
-    "slug": "tekken-8",
-    "coverImage": "https://picsum.photos/seed/tekken8/600/400",
-    "screenshots": [
-      "https://picsum.photos/seed/t8-1/1280/720",
-      "https://picsum.photos/seed/t8-2/1280/720",
-      "https://picsum.photos/seed/t8-3/1280/720"
-    ],
-    "description": "Raja fighting game 3D kembali dengan grafis memukau dan Heat System yang mengubah pertandingan.",
-    "longDescription": "Tekken 8 adalah entri terbaru dalam seri fighting game 3D legendaris dari Bandai Namco. Dengan grafis yang sangat realistis menggunakan Unreal Engine 5, Heat System yang menambah layer strategi baru, dan roster yang beragam, Tekken 8 menjadi titik masuk terbaik ke franchise ini sekaligus hadiah bagi veteran.",
-    "genres": ["Fighting", "Action"],
-    "platforms": ["PC", "PlayStation 5", "Xbox Series X"],
-    "developer": "Bandai Namco",
-    "publisher": "Bandai Namco",
-    "releaseDate": "2024-01-26",
-    "rating": 8.8,
-    "price": 599000,
-    "tags": ["fighting", "3d", "competitive", "esports", "combo"],
-    "featured": false
-  },
-  {
-    "id": 29,
     "title": "Palworld",
     "slug": "palworld",
-    "coverImage": "https://picsum.photos/seed/palworld/600/400",
+    "coverImage": "https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=600&h=800&fit=crop",
     "screenshots": [
-      "https://picsum.photos/seed/pw-1/1280/720",
-      "https://picsum.photos/seed/pw-2/1280/720",
-      "https://picsum.photos/seed/pw-3/1280/720"
+      "https://images.unsplash.com/photo-1501446529957-6226bd447c46?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1495107333309-f0675bc15523?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=1280&h=720&fit=crop"
     ],
-    "description": "Monster-collector survival crafting yang viral dengan gameplay loop yang sangat adiktif.",
-    "longDescription": "Palworld adalah game monster-collector survival crafting dari Pocketpair yang mengejutkan dunia gaming dengan penjualan dan concurrent players yang luar biasa di awal 2024. Pemain menangkap Pal (makhluk mirip Pokemon), membangun base, crafting senjata, dan bertahan hidup. Gameplay loopnya sangat solid dan adiktif.",
-    "genres": ["Action", "Simulation", "Adventure"],
-    "platforms": ["PC", "Xbox Series X", "Xbox One"],
+    "description": "Monster-collector survival crafting yang viral dan adiktif.",
+    "longDescription": "Tangkap makhluk misterius yang disebut Pal. Bangun peternakan, bekerja di pabrik, atau bertarunglah bersama mereka dalam petualangan survival yang penuh kebebasan.",
+    "genres": [
+      "Action",
+      "Simulation"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox Series X"
+    ],
     "developer": "Pocketpair",
     "publisher": "Pocketpair",
     "releaseDate": "2024-01-19",
     "rating": 8.0,
     "price": 279000,
-    "tags": ["monster-collector", "survival", "crafting", "open-world", "co-op"],
+    "tags": [
+      "survival",
+      "monster-collection",
+      "co-op"
+    ],
+    "featured": false
+  },
+  {
+    "id": 28,
+    "title": "God of War Ragnarok",
+    "slug": "god-of-war-ragnarok",
+    "coverImage": "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?q=80&w=600&h=800&fit=crop",
+    "screenshots": [
+      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1523875194681-bedd468c58bf?q=80&w=1280&h=720&fit=crop"
+    ],
+    "description": "Kisah emosional Kratos dan Atreus di ambang Ragnarok.",
+    "longDescription": "Lanjutkan perjalanan melintasi sembilan alam mitologi Norse. God of War Ragnarök menyajikan combat yang brutal dengan narasi ayah-anak yang sangat menyentuh hati.",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "platforms": [
+      "PlayStation 5",
+      "PlayStation 4"
+    ],
+    "developer": "Santa Monica Studio",
+    "publisher": "Sony Interactive Entertainment",
+    "releaseDate": "2022-11-09",
+    "rating": 9.4,
+    "price": 799000,
+    "tags": [
+      "mythology",
+      "action",
+      "story-rich"
+    ],
+    "featured": false
+  },
+  {
+    "id": 29,
+    "title": "Cities: Skylines II",
+    "slug": "cities-skylines-2",
+    "coverImage": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?q=80&w=600&h=800&fit=crop",
+    "screenshots": [
+      "https://images.unsplash.com/photo-1519501025264-65ba15a82390?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1449156003053-96462a6d3fa0?q=80&w=1280&h=720&fit=crop"
+    ],
+    "description": "Simulasi pembangunan kota paling detail dan mendalam.",
+    "longDescription": "Rancang, bangun, dan kelola kota impianmu. Dari sistem ekonomi hingga infrastruktur jalan, Cities: Skylines II menawarkan simulasi kota modern yang sangat realistis.",
+    "genres": [
+      "Simulation",
+      "Strategy"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 5"
+    ],
+    "developer": "Colossal Order",
+    "publisher": "Paradox Interactive",
+    "releaseDate": "2023-10-24",
+    "rating": 7.4,
+    "price": 549000,
+    "tags": [
+      "city-builder",
+      "management",
+      "realistic"
+    ],
     "featured": false
   },
   {
     "id": 30,
-    "title": "Monster Hunter: World",
-    "slug": "monster-hunter-world",
-    "coverImage": "https://picsum.photos/seed/mhw/600/400",
+    "title": "It Takes Two",
+    "slug": "it-takes-two",
+    "coverImage": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=600&h=800&fit=crop",
     "screenshots": [
-      "https://picsum.photos/seed/mhw-1/1280/720",
-      "https://picsum.photos/seed/mhw-2/1280/720",
-      "https://picsum.photos/seed/mhw-3/1280/720"
+      "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1280&h=720&fit=crop",
+      "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?q=80&w=1280&h=720&fit=crop"
     ],
-    "description": "Action RPG hunting kooperatif terbaik dengan ekosistem monster yang realistis.",
-    "longDescription": "Monster Hunter: World adalah game yang berhasil memperkenalkan franchise Monster Hunter ke audiens global. Pemain berburu monster raksasa di ekosistem open-world yang hidup dan saling berinteraksi, kemudian menggunakan material hasil buruan untuk crafting armor dan senjata yang lebih kuat. Gameplay loop-nya sangat satisfying.",
-    "genres": ["Action", "RPG"],
-    "platforms": ["PC", "PlayStation 4", "Xbox One"],
-    "developer": "Capcom",
-    "publisher": "Capcom",
-    "releaseDate": "2018-01-26",
-    "rating": 9.0,
-    "price": 299000,
-    "tags": ["hunting", "co-op", "crafting", "ecosystem", "multiplayer"],
+    "description": "Petualangan co-op murni tentang hubungan yang retak.",
+    "longDescription": "Pemenang Game of the Year 2021. Bekerjasama dengan teman atau pasangan dalam petualangan platforming kreatif yang hanya bisa dimainkan secara berdua (co-op).",
+    "genres": [
+      "Adventure",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 5",
+      "Nintendo Switch"
+    ],
+    "developer": "Hazelight Studios",
+    "publisher": "EA",
+    "releaseDate": "2021-03-26",
+    "rating": 9.4,
+    "price": 449000,
+    "tags": [
+      "co-op",
+      "multiplayer",
+      "family-friendly"
+    ],
     "featured": false
   }
 ]

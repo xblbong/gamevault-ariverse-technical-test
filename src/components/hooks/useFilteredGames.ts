@@ -1,47 +1,43 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { useDebounce } from "./useDebounce";
 import { Game, Genre, Platform, SortOption } from "../types/game";
-import gamesData from "../../../data/games.json";
+import gamesDataRaw from "../../../data/games.json";
+import { useDebounce } from "./useDebounce";
+
+const gamesData = gamesDataRaw as Game[];
 
 export const useFilteredGames = () => {
-    const allGames = gamesData as Game[];
-
-    // States
     const [search, setSearch] = useState("");
     const [selectedGenres, setSelectedGenres] = useState<Genre[]>([]);
     const [selectedPlatforms, setSelectedPlatforms] = useState<Platform[]>([]);
-    const [selectedYear, setSelectedYear] = useState<string>("");
+    const [selectedYear, setSelectedYear] = useState<string>(""); // STATE BARU
     const [sortBy, setSortBy] = useState<SortOption>("rating-desc");
 
     const debouncedSearch = useDebounce(search, 300);
 
     const filteredGames = useMemo(() => {
-        let result = [...allGames];
+        let result = [...gamesData];
 
-        // 1. Filter by Search
         if (debouncedSearch) {
             result = result.filter((g) =>
                 g.title.toLowerCase().includes(debouncedSearch.toLowerCase())
             );
         }
 
-        // 2. Filter by Genre
         if (selectedGenres.length > 0) {
             result = result.filter((g) =>
                 selectedGenres.some((genre) => g.genres.includes(genre))
             );
         }
 
-        // 3. Filter by Platform
         if (selectedPlatforms.length > 0) {
             result = result.filter((g) =>
                 selectedPlatforms.some((p) => g.platforms.includes(p))
             );
         }
 
-        // 4. Filter by Year
+        // LOGIKA FILTER TAHUN BARU
         if (selectedYear) {
             result = result.filter((g) => {
                 const gameYear = new Date(g.releaseDate).getFullYear();
@@ -50,7 +46,6 @@ export const useFilteredGames = () => {
             });
         }
 
-        // 5. Sorting
         result.sort((a, b) => {
             switch (sortBy) {
                 case "rating-desc": return b.rating - a.rating;
@@ -62,20 +57,14 @@ export const useFilteredGames = () => {
         });
 
         return result;
-    }, [allGames, debouncedSearch, selectedGenres, selectedPlatforms, selectedYear, sortBy]);
+    }, [debouncedSearch, selectedGenres, selectedPlatforms, selectedYear, sortBy]);
 
     return {
-        search,
-        setSearch,
-        selectedGenres,
-        setSelectedGenres,
-        selectedPlatforms,
-        setSelectedPlatforms,
-        selectedYear,
-        setSelectedYear,
-        sortBy,
-        setSortBy,
+        search, setSearch,
+        selectedGenres, setSelectedGenres,
+        selectedPlatforms, setSelectedPlatforms,
+        selectedYear, setSelectedYear, // RETURN BARU
+        sortBy, setSortBy,
         filteredGames,
-        totalResults: filteredGames.length,
     };
 };
